@@ -1,58 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Arcade - Architecture</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="Arcade - Architecture Template">
-	<meta name="keywords" content="arcade, architecture, onepage, creative, html">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->   
-	<link href="img/favicon.ico" rel="shortcut icon"/>
 
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="../public/css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="../public/css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="../public/css/animate.css"/>
-	<link rel="stylesheet" href="../public/css/owl.carousel.css"/>
-	<link rel="stylesheet" href="../public/css/style.css"/>
-
-
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
-</head>
 <body>
 	<!-- Page Preloder -->
 	<div id="preloder">
 		<div class="loader"></div>
 	</div>
-	
-	<!-- Header section start -->   
-	<header class="header-area">
-		<a href="home.php" class="logo-area">
-			<img src="img/logo.png" alt="">
-		</a>
-		<div class="nav-switch">
-			<i class="fa fa-bars"></i>
-		</div>
-		<div class="phone-number">+675 334 567 223</div>
-		<nav class="nav-menu">
-			<ul>
-				<li class="active"><a href="home.php">Home</a></li>
-				<li><a href="about.php">About us</a></li>
-				<li><a href="service.php">Services</a></li>
-				<li><a href="portfolio.php">Portfolio</a></li>
-				<li><a href="contact.php">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	<!-- Header section end -->   
 
+	<?php include 'components/header.php'; ?>
 
 	<!-- Hero section start -->
 	<section class="hero-section">
@@ -73,19 +28,19 @@
 			<div class="hero-slide-item set-bg" data-setbg="../public/img/bg.jpg">
 				<div class="slide-inner">
 					<div class="slide-content">
-					<h2>Minimalistic <br>Architecture <br> and more</h2>
-					<a href="#" class="site-btn sb-light">See Project</a>
-					</div>	
+						<h2>Minimalistic <br>Architecture <br> and more</h2>
+						<a href="#" class="site-btn sb-light">See Project</a>
+					</div>
 				</div>
-			</div>	
+			</div>
 			<div class="hero-slide-item set-bg" data-setbg="../public/img/bg.jpg">
 				<div class="slide-inner">
 					<div class="slide-content">
-					<h2>Minimalistic <br>Architecture <br> and more</h2>
-					<a href="#" class="site-btn sb-light">See Project</a>
-					</div>	
+						<h2>Minimalistic <br>Architecture <br> and more</h2>
+						<a href="#" class="site-btn sb-light">See Project</a>
+					</div>
 				</div>
-			</div>	
+			</div>
 		</div>
 		<div class="slide-num-holder" id="snh-1"></div>
 		<div class="hero-right-text">architecture</div>
@@ -275,7 +230,7 @@
 					</ul>
 				</div>
 			</div>
-		</div>                      
+		</div>
 		<div id="projects-carousel" class="projects-slider">
 			<div class="single-project set-bg rest" data-setbg="../public/img/projects/1.jpg">
 				<div class="project-content">
@@ -352,77 +307,8 @@
 	<!-- Clients section end -->
 
 
-	<!-- Footer section start -->
-	<footer class="footer-section">
-		<div class="footer-social">
-			<div class="social-links">
-				<a href="#"><i class="fa fa-pinterest"></i></a>
-				<a href="#"><i class="fa fa-linkedin"></i></a>
-				<a href="#"><i class="fa fa-instagram"></i></a>
-				<a href="#"><i class="fa fa-facebook"></i></a>
-				<a href="#"><i class="fa fa-twitter"></i></a>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-9 offset-lg-3">
-					<div class="row">
-						<div class="col-md-4">
-							<div class="footer-item">
-								<ul>
-									<li><a href="#">Home</a></li>
-									<li><a href="#">About us</a></li>
-									<li><a href="#">Services</a></li>
-									<li><a href="#">Portfolio</a></li>
-									<li><a href="#">Blog</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="footer-item">
-								<ul>
-									<li><a href="#">Terms & Conditions</a></li>
-									<li><a href="#">FAQ</a></li>
-									<li><a href="#">Help Desk</a></li>
-									<li><a href="#">Job Aplications</a></li>
-									<li><a href="#">Site Map</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="footer-item">
-								<ul>
-									<li><a href="#">Privacy</a></li>
-									<li><a href="#">Contact us</a></li>
-									<li><a href="#">Newsletter</a></li>
-									<li><a href="#">Clients Testimonials</a></li>
-									<li><a href="#">FAQ</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+	<?php include 'components/footer.php'; ?>
 
-		<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-     <div class="copyright">Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved.  <br>This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></div>
-    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-
-	</footer>
-	<!-- Footer section end -->
-
-
-
-
-	<!--====== Javascripts & Jquery ======-->
-	<script src="../public/js/jquery-2.1.4.min.js"></script>
-	<script src="../public/js/bootstrap.min.js"></script>
-	<script src="../public/js/isotope.pkgd.min.js"></script>
-	<script src="../public/js/owl.carousel.min.js"></script>
-	<script src="../public/js/jquery.owl-filter.js"></script>
-	<script src="../public/js/magnific-popup.min.js"></script>
-	<script src="../public/js/circle-progress.min.js"></script>
-	<script src="../public/js/main.js"></script>
 </body>
+
 </html>
