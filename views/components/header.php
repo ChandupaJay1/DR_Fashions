@@ -36,7 +36,7 @@
 	<div class="phone-number">+675 334 567 223</div>
 	<nav class="nav-menu">
 		<ul>
-			<li class="active"><a href="home.php">Home</a></li>
+			<li class="active"><a href="index.php">Home</a></li>
 			<li><a href="about.php">About us</a></li>
 			<li><a href="service.php">Services</a></li>
 			<li><a href="portfolio.php">Portfolio</a></li>

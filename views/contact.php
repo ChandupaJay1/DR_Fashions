@@ -1,32 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Arcade - Architecture</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="Arcade - Architecture Template">
-	<meta name="keywords" content="arcade, architecture, onepage, creative, html">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->   
-	<link href="img/favicon.ico" rel="shortcut icon"/>
 
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/animate.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
-
-
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
-</head>
 <body>
+
+	<?php include 'components/header.php'; ?>
+
 	<!-- Page Preloder -->
 	<div id="preloder">
 		<div class="loader"></div>
@@ -35,7 +13,7 @@
 	<!-- Header section start -->   
 	<header class="header-area">
 		<a href="home.php" class="logo-area">
-			<img src="img/logo.png" alt="">
+			<img src="../public/img/logo.png" alt="">
 		</a>
 		<div class="nav-switch">
 			<i class="fa fa-bars"></i>
@@ -55,7 +33,7 @@
 
 
 	<!-- Page header section start -->
-	<section class="page-header-section set-bg" data-setbg="img/header-bg-2.jpg">
+	<section class="page-header-section set-bg" data-setbg="../public/img/header-bg-2.jpg">
 		<div class="container">
 			<h1 class="header-title">Contact<span>.</span></h1>
 		</div>
@@ -97,79 +75,13 @@
 
 
 
-	<!-- Footer section start -->
-	<footer class="footer-section">
-		<div class="footer-social">
-			<div class="social-links">
-				<a href="#"><i class="fa fa-pinterest"></i></a>
-				<a href="#"><i class="fa fa-linkedin"></i></a>
-				<a href="#"><i class="fa fa-instagram"></i></a>
-				<a href="#"><i class="fa fa-facebook"></i></a>
-				<a href="#"><i class="fa fa-twitter"></i></a>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-9 offset-lg-3">
-					<div class="row">
-						<div class="col-md-4">
-							<div class="footer-item">
-								<ul>
-									<li><a href="#">Home</a></li>
-									<li><a href="#">About us</a></li>
-									<li><a href="#">Services</a></li>
-									<li><a href="#">Portfolio</a></li>
-									<li><a href="#">Blog</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="footer-item">
-								<ul>
-									<li><a href="#">Terms & Conditions</a></li>
-									<li><a href="#">FAQ</a></li>
-									<li><a href="#">Help Desk</a></li>
-									<li><a href="#">Job Aplications</a></li>
-									<li><a href="#">Site Map</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="footer-item">
-								<ul>
-									<li><a href="#">Privacy</a></li>
-									<li><a href="#">Contact us</a></li>
-									<li><a href="#">Newsletter</a></li>
-									<li><a href="#">Clients Testimonials</a></li>
-									<li><a href="#">FAQ</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-     <div class="copyright">Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved.  <br>This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></div>
-    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-	</footer>
-	<!-- Footer section end -->
-
-
-
-	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/isotope.pkgd.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.owl-filter.js"></script>
-	<script src="js/magnific-popup.min.js"></script>
-	<script src="js/circle-progress.min.js"></script>
-	<script src="js/main.js"></script>
+	
 	
 	<!-- load for map -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0YyDTa0qqOjIerob2VTIwo_XVMhrruxo"></script>
 	<script src="js/map.js"></script>
+
+	<?php include 'components/footer.php'; ?>
 
 </body>
 </html>
