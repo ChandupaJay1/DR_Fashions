@@ -10,26 +10,7 @@
 		<div class="loader"></div>
 	</div>
 	
-	<!-- Header section start -->   
-	<header class="header-area">
-		<a href="home.php" class="logo-area">
-			<img src="../public/img/logo.png" alt="">
-		</a>
-		<div class="nav-switch">
-			<i class="fa fa-bars"></i>
-		</div>
-		<div class="phone-number">+675 334 567 223</div>
-		<nav class="nav-menu">
-			<ul>
-				<li><a href="home.php">Home</a></li>
-				<li><a href="about.php">About us</a></li>
-				<li><a href="service.php">Services</a></li>
-				<li class="active"><a href="portfolio.php">Portfolio</a></li>
-				<li><a href="contact.php">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	<!-- Header section end -->   
+	
 
 
 	<!-- Page header section start -->

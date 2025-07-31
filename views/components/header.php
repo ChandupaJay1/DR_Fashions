@@ -27,7 +27,7 @@
 
 <!-- Header section start -->
 <header class="header-area">
-	<a href="home.php" class="logo-area">
+	<a href="index.html" class="logo-area">
 		<img src="../public/img/logo.png" alt="">
 	</a>
 	<div class="nav-switch">
