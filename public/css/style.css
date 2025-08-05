@@ -443,9 +443,12 @@ ol {
 
 .logo-area {
 	float: left;
-	display: inline-block;
-	background: #121212;
-	padding: 20px 60px 30px;
+	/*display: inline-block;*/
+	width: 20%;
+	height: 60%;
+	background: rgba(18, 18, 18, 0);
+	padding: 30px 60px 30px;
+	margin-left: 50px;
 }
 
 .phone-number {
@@ -2105,4 +2108,8 @@ ol {
 	.projects-slider {
 		padding: 0 15px;
 	}
+}
+.img2{
+	width: 90%;
+	height: 50%;
 }
