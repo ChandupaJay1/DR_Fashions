@@ -52,7 +52,7 @@
 					<div class="footer-credit" style="margin-top: 50px;">
 						<a rel="nofollow" href="https://www.facebook.com/nerdtechinfo" target="_blank">
 							Designed And Published By NerdTech Software Development LK.
-							<img src="./assets/images/nerdtech.png" alt="NerdTech Logo" class="ft-logo">
+							<img src="../public/img/nerdtech.png" alt="NerdTech Logo" class="ft-logo">
 						</a>
 					</div>
 				</div>

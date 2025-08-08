@@ -33,18 +33,18 @@
 		</div>
 		<!-- hero slider area -->
 		<div class="hero-slider">
-			<div class="hero-slide-item set-bg" data-setbg="../public/img/line/IMG1.jpg">
+			<div class="hero-slide-item set-bg" data-setbg="../public/img/line/3.jpeg">
 				<div class="slide-inner">
 					<div class="slide-content">
-						<h2>Minimalistic <br>Architecture <br> and more</h2>
+                        <h2>Innovative fashion.<br>Trusted quality.<br>Timeless design.</h2>
 						<!--						<a href="#" class="site-btn sb-light">See Project</a>-->
 					</div>
 				</div>
 			</div>
-			<div class="hero-slide-item set-bg" data-setbg="../public/img/line/IMG2.jpg">
+			<div class="hero-slide-item set-bg" data-setbg="../public/img/line/4.jpeg">
 				<div class="slide-inner">
 					<div class="slide-content">
-						<h2>Minimalistic <br>Architecture <br> and more</h2>
+						<h2>Innovative fashion.<br>Trusted quality.<br>Timeless design.</h2>
 						<!--						<a href="#" class="site-btn sb-light">See Project</a>-->
 					</div>
 				</div>
@@ -61,9 +61,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7 intro-text mb-5 mb-lg-0">
-					<h2 class="sp-title">We are a creative Architecture<span>Studio</span></h2>
+					<h2 class="sp-title">Our <span>Mission</span></h2>
 					<p>Pellentesque lorem dolor, malesuada eget tortor vitae, tristique lacinia lectus. Pellentesque sed accumsan risus, id aliquam nulla. Integer lorem risus, feugiat at mauris malesuada, accumsan pellentesque ipsum. Nunc dapibus, libero ut pulvinar accumsan, tortor nisl iaculis ligula. Curabitur finibus dolor vel lectus pretium interdum a eget ante. Morbi rhoncus feugiat imperdiet. Curabitur non maximus leo. Nulla in ipsum sed magna egestas bibendum. Integer in sem sagittis, commodo mi sit amet, commodo nibh. Suspendisse potenti. Aliquam erat volutpat. </p>
-					<a href="#" class="site-btn sb-dark">See Project</a>
 				</div>
 				<div class="col-lg-5 pt-4">
 					<img src="../public/img/intro.png" alt="">
@@ -88,7 +87,7 @@
 								<img src="../public/img/icon/dark/1.png" alt="">
 							</div>
 						</div>
-						<h3>Plans and Projects</h3>
+						<h3>Service 1</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
 						<a href="#" class="readmore">READ MORE</a>
 					</div>
@@ -100,7 +99,7 @@
 								<img src="../public/img/icon/dark/2.png" alt="">
 							</div>
 						</div>
-						<h3>Conceptual Architecture</h3>
+						<h3>Service 2</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
 						<a href="#" class="readmore">READ MORE</a>
 					</div>
@@ -112,7 +111,7 @@
 								<img src="../public/img/icon/dark/3.png" alt="">
 							</div>
 						</div>
-						<h3>Apartment Buildings</h3>
+						<h3>Service 3</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
 						<a href="#" class="readmore">READ MORE</a>
 					</div>
@@ -124,7 +123,7 @@
 								<img src="../public/img/icon/dark/4.png" alt="">
 							</div>
 						</div>
-						<h3>Skyscrapers Buildings</h3>
+						<h3>Service 4</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
 						<a href="#" class="readmore">READ MORE</a>
 					</div>
@@ -136,7 +135,7 @@
 								<img src="../public/img/icon/dark/5.png" alt="">
 							</div>
 						</div>
-						<h3>Documentation</h3>
+						<h3>Service 5</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
 						<a href="#" class="readmore">READ MORE</a>
 					</div>
@@ -148,7 +147,7 @@
 								<img src="../public/img/icon/dark/6.png" alt="">
 							</div>
 						</div>
-						<h3>Restauration Projects</h3>
+						<h3>Service 6</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
 						<a href="#" class="readmore">READ MORE</a>
 					</div>
@@ -166,7 +165,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7 pl-lg-0 offset-lg-5 cta-content">
-					<h2 class="sp-title">Dare to dream of a modern <span>home</span></h2>
+					<h2 class="sp-title">Our <span>Vision</span></h2>
 					<p>Pellentesque lorem dolor, malesuada eget tortor vitae, tristique lacinia lectus. Pellentesque sed accumsan risus, id aliquam nulla. Integer lorem risus, feugiat at mauris malesuada, accumsan pellentesque ipsum. Nunc dapibus, libero ut pulvinar accumsan, tortor nisl iaculis ligula. Curabitur finibus dolor vel lectus pretium interdum a eget ante. </p>
 					<div class="cta-icons">
 						<div class="cta-img-icon">

@@ -1,8 +1,8 @@
 <head>
-	<title>Arcade - Architecture</title>
+	<title>DR Fashions</title>
 	<meta charset="UTF-8">
-	<meta name="description" content="Arcade - Architecture Template">
-	<meta name="keywords" content="arcade, architecture, onepage, creative, html">
+	<meta name="description" content="DR Fashions website">
+	<meta name="keywords" content="drfashions, garment, dr, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->
 	<link href="../public/img/favicon.ico" rel="shortcut icon" />
@@ -31,7 +31,7 @@
 	<div class="nav-switch">
 		<i class="fa fa-bars"></i>
 	</div>
-	<div class="phone-number">+675 334 567 223</div>
+	<div class="phone-number">+94 33 xxx xxxx</div>
 	<nav class="nav-menu">
 		<ul>
 			<li class="active"><a href="home.php">Home</a></li>
