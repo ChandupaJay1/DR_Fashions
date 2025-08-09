@@ -1,320 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DR Fashions</title>
+</head>
+
 <body>
-	<!-- Page Preloder -->
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
+<!-- Page Preloder -->
+<div id="preloder">
+    <div class="loader"></div>
+</div>
 
-	<?php include 'components/header.php'; ?>
+<?php include 'components/header.php'; ?>
 
-	<!-- Hero section start -->
-	<section class="hero-section">
+<!-- Hero section start -->
+<section class="hero-section fade-in-section">
 
-		<!-- left social link ber -->
-		<div class="left-bar">
-			<div class="left-bar-content">
-
-				<!-- Vertical Rotated Logo Positioned High -->
-				<div class="rotated-logo">
-					<a href="home.php">
-						<img src="../public/img/logo.png" alt="DR Fashions Logo">
-					</a>
-				</div>
-
-				<!-- Social Icons Below -->
-				<div class="social-links">
-					<a href="#"><i class="fa fa-instagram"></i></a>
-					<a href="#"><i class="fa fa-facebook"></i></a>
-				</div>
-
-			</div>
-		</div>
-		<!-- hero slider area -->
-		<div class="hero-slider">
-			<div class="hero-slide-item set-bg" data-setbg="../public/img/line/3.jpeg">
-				<div class="slide-inner">
-					<div class="slide-content">
-                        <h2>Innovative fashion.<br>Trusted quality.<br>Timeless design.</h2>
-						<!--						<a href="#" class="site-btn sb-light">See Project</a>-->
-					</div>
-				</div>
-			</div>
-			<div class="hero-slide-item set-bg" data-setbg="../public/img/line/4.jpeg">
-				<div class="slide-inner">
-					<div class="slide-content">
-						<h2>Innovative fashion.<br>Trusted quality.<br>Timeless design.</h2>
-						<!--						<a href="#" class="site-btn sb-light">See Project</a>-->
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="slide-num-holder" id="snh-1"></div>
-		<div class="hero-right-text">DR FASHIONS</div>
-	</section>
-	<!-- Hero section end -->
+    <div class="hero-slider">
+        <div class="hero-slide-item set-bg" data-setbg="../public/img/line/3.jpeg">
+            <div class="slide-inner">
+                <div class="slide-content">
+                    <h2>Innovative fashion.<br>Trusted quality.<br>Timeless design.</h2>
+                    <!--						<a href="#" class="site-btn sb-light">See Project</a>-->
+                </div>
+            </div>
+        </div>
+        <div class="hero-slide-item set-bg" data-setbg="../public/img/line/4.jpeg">
+            <div class="slide-inner">
+                <div class="slide-content">
+                    <h2>Innovative fashion.<br>Trusted quality.<br>Timeless design.</h2>
+                    <!--						<a href="#" class="site-btn sb-light">See Project</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide-num-holder" id="snh-1"></div>
+    <div class="hero-right-text">DR FASHIONS</div>
+</section>
+<!-- Hero section end -->
 
 
-	<!-- Intro section start -->
-	<section class="intro-section pt100 pb50">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-7 intro-text mb-5 mb-lg-0">
-					<h2 class="sp-title">Our <span>Mission</span></h2>
-					<p>Pellentesque lorem dolor, malesuada eget tortor vitae, tristique lacinia lectus. Pellentesque sed accumsan risus, id aliquam nulla. Integer lorem risus, feugiat at mauris malesuada, accumsan pellentesque ipsum. Nunc dapibus, libero ut pulvinar accumsan, tortor nisl iaculis ligula. Curabitur finibus dolor vel lectus pretium interdum a eget ante. Morbi rhoncus feugiat imperdiet. Curabitur non maximus leo. Nulla in ipsum sed magna egestas bibendum. Integer in sem sagittis, commodo mi sit amet, commodo nibh. Suspendisse potenti. Aliquam erat volutpat. </p>
-				</div>
-				<div class="col-lg-5 pt-4">
-					<img src="../public/img/intro.png" alt="">
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Intro section end -->
+<!-- Intro section start -->
+<section class="intro-section pt100 pb50 fade-in-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 intro-text mb-6 mb-lg-0">
+                <h2 class="sp-title">Our <span>Mission</span></h2>
+                <p class="font-weight-bold">To provide our customers with the best possible
+                    trousers that are made with the highest quality
+                    materials, while ensuring that our manufacturing
+                    processes are environmentally friendly and
+                    socially responsible. </p>
+            </div>
+            <div class="col-lg-5 pt-4">
+                <img src="../public/img/intro.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Intro section end -->
 
 
-	<!-- Service section start -->
-	<section class="service-section spad">
-		<div class="container">
-			<div class="section-title">
-				<h2>Services</h2>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<div class="service-box">
-						<div class="sb-icon">
-							<div class="sb-img-icon">
-								<img src="../public/img/icon/dark/1.png" alt="">
-							</div>
-						</div>
-						<h3>Service 1</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-						<a href="#" class="readmore">READ MORE</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="service-box">
-						<div class="sb-icon">
-							<div class="sb-img-icon">
-								<img src="../public/img/icon/dark/2.png" alt="">
-							</div>
-						</div>
-						<h3>Service 2</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-						<a href="#" class="readmore">READ MORE</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="service-box">
-						<div class="sb-icon">
-							<div class="sb-img-icon">
-								<img src="../public/img/icon/dark/3.png" alt="">
-							</div>
-						</div>
-						<h3>Service 3</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-						<a href="#" class="readmore">READ MORE</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="service-box">
-						<div class="sb-icon">
-							<div class="sb-img-icon">
-								<img src="../public/img/icon/dark/4.png" alt="">
-							</div>
-						</div>
-						<h3>Service 4</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-						<a href="#" class="readmore">READ MORE</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="service-box">
-						<div class="sb-icon">
-							<div class="sb-img-icon">
-								<img src="../public/img/icon/dark/5.png" alt="">
-							</div>
-						</div>
-						<h3>Service 5</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-						<a href="#" class="readmore">READ MORE</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="service-box">
-						<div class="sb-icon">
-							<div class="sb-img-icon">
-								<img src="../public/img/icon/dark/6.png" alt="">
-							</div>
-						</div>
-						<h3>Service 6</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-						<a href="#" class="readmore">READ MORE</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Service section end -->
+<!-- Service section start -->
+<section class="service-section spad fade-in-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Services</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box">
+                    <div class="sb-icon">
+                        <div class="sb-img-icon">
+                            <img src="../public/img/icon/dark/1.png" alt="">
+                        </div>
+                    </div>
+                    <h3>Custom Tailoring</h3>
+                    <p>Premium custom-fit trousers designed to your exact measurements and style preferences. Our expert tailors ensure perfect fit and comfort for every body type.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box">
+                    <div class="sb-icon">
+                        <div class="sb-img-icon">
+                            <img src="../public/img/icon/dark/2.png" alt="">
+                        </div>
+                    </div>
+                    <h3>Quality Alterations</h3>
+                    <p>Professional alteration services to ensure your trousers fit perfectly. From hemming to waist adjustments, we provide precise modifications for the ideal fit.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box">
+                    <div class="sb-icon">
+                        <div class="sb-img-icon">
+                            <img src="../public/img/icon/dark/3.png" alt="">
+                        </div>
+                    </div>
+                    <h3>Fabric Consultation</h3>
+                    <p>Expert guidance on selecting the finest fabrics for your trousers. We help you choose materials that match your style, occasion, and durability requirements.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box">
+                    <div class="sb-icon">
+                        <div class="sb-img-icon">
+                            <img src="../public/img/icon/dark/4.png" alt="">
+                        </div>
+                    </div>
+                    <h3>Style Consultation</h3>
+                    <p>Personal styling services to help you choose the right trouser styles for your wardrobe. Our consultants guide you through cuts, colors, and fashion trends.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box">
+                    <div class="sb-icon">
+                        <div class="sb-img-icon">
+                            <img src="../public/img/icon/dark/5.png" alt="">
+                        </div>
+                    </div>
+                    <h3>Corporate Orders</h3>
+                    <p>Bulk orders for corporate uniforms and professional wear. We provide consistent quality and styling for businesses requiring employee trouser uniforms.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box">
+                    <div class="sb-icon">
+                        <div class="sb-img-icon">
+                            <img src="../public/img/icon/dark/6.png" alt="">
+                        </div>
+                    </div>
+                    <h3>Care & Maintenance</h3>
+                    <p>Comprehensive care instructions and maintenance services to keep your trousers looking pristine. Professional cleaning and preservation techniques available.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Service section end -->
 
 
 
-	<!-- CTA section start -->
-	<section class="cta-section pt100 pb50">
-		<div class="cta-image-box"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-7 pl-lg-0 offset-lg-5 cta-content">
-					<h2 class="sp-title">Our <span>Vision</span></h2>
-					<p>Pellentesque lorem dolor, malesuada eget tortor vitae, tristique lacinia lectus. Pellentesque sed accumsan risus, id aliquam nulla. Integer lorem risus, feugiat at mauris malesuada, accumsan pellentesque ipsum. Nunc dapibus, libero ut pulvinar accumsan, tortor nisl iaculis ligula. Curabitur finibus dolor vel lectus pretium interdum a eget ante. </p>
-					<div class="cta-icons">
-						<div class="cta-img-icon">
-							<img src="../public/img/icon/light/1.png" alt="">
-						</div>
-						<div class="cta-img-icon">
-							<img src="../public/img/icon/light/2.png" alt="">
-						</div>
-						<div class="cta-img-icon">
-							<img src="../public/img/icon/color/3.png" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- CTA section end -->
+<!-- CTA section start -->
+<section class="cta-section pt100 pb50 fade-in-section">
+    <div class="cta-image-box"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 pl-lg-0 offset-lg-5 cta-content">
+                <h2 class="sp-title">Our <span>Vision</span></h2>
+                <p>To be the leading manufacturer of high-quality trousers that are both stylish and
+                    comfortable, while maintaining our
+                    commitment to sustainability and ethical
+                    practices. </p>
+                <div class="cta-icons">
+                    <div class="cta-img-icon">
+                        <img src="../public/img/icon/light/1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- CTA section end -->
 
 
-	<!-- Milestones section Start -->
-	<section class="milestones-section spad">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6">
-					<div class="milestone">
-						<h2>14</h2>
-						<p>Years <br>of <br>Experience</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="milestone">
-						<h2>237</h2>
-						<p>Projects <br>Taken</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="milestone">
-						<h2>11k</h2>
-						<p>Twitter <br>Followers</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="milestone">
-						<h2>12</h2>
-						<p>Awards <br>Won</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Milestones section end -->
+<!-- Milestones section Start -->
+<section class="milestones-section spad fade-in-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="milestone">
+                    <h2><span class="counter" data-count="10">0</span></h2>
+                    <p>Years of Excellence</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="milestone">
+                    <h2><span class="counter" data-count="5000">0</span>+</h2>
+                    <p>Happy Customers</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="milestone">
+                    <h2><span class="counter" data-count="25">0</span>k</h2>
+                    <p>Trousers Crafted</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="milestone">
+                    <h2><span class="counter" data-count="8">0</span></h2>
+                    <p>Fashion Awards</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Milestones section end -->
 
 
-	<!-- Projects section start -->
-	<div class="projects-section pb50">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3">
-					<div class="section-title">
-						<h1>Projects</h1>
-					</div>
-				</div>
-				<div class="col-lg-9">
-					<ul class="projects-filter-nav">
-						<li class="btn-filter" data-filter="*">All</li>
-						<li class="btn-filter" data-filter=".rest">Restaurations</li>
-						<li class="btn-filter" data-filter=".build">Buildings</li>
-						<li class="btn-filter" data-filter=".apart">Apartments</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div id="projects-carousel" class="projects-slider">
-			<div class="single-project set-bg rest" data-setbg="../public/img/projects/1.jpg">
-				<div class="project-content">
-					<h2>Biggest <br> Restaurations</h2>
-					<p>Jan 19, 2018</p>
-					<a href="#" class="seemore">See Project </a>
-				</div>
-			</div>
-			<div class="single-project set-bg build" data-setbg="../public/img/projects/2.jpg">
-				<div class="project-content">
-					<h2>Office <br> Building</h2>
-					<p>Jan 19, 2018</p>
-					<a href="#" class="seemore">See Project </a>
-				</div>
-			</div>
-			<div class="single-project set-bg apart" data-setbg="../public/img/projects/3.jpg">
-				<div class="project-content">
-					<h2>Nice <br> Apartments</h2>
-					<p>Jan 19, 2018</p>
-					<a href="#" class="seemore">See Project </a>
-				</div>
-			</div>
-			<div class="single-project set-bg rest" data-setbg="../public/img/projects/4.jpg">
-				<div class="project-content">
-					<h2>Biggest <br> Restaurations</h2>
-					<p>Jan 19, 2018</p>
-					<a href="#" class="seemore">See Project </a>
-				</div>
-			</div>
-			<div class="single-project set-bg apart" data-setbg="../public/img/projects/2.jpg">
-				<div class="project-content">
-					<h2>Office <br> Building</h2>
-					<p>Jan 19, 2018</p>
-					<a href="#" class="seemore">See Project </a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Projects section end -->
+<!-- Projects section start -->
+<div class="projects-section pb50 fade-in-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="section-title">
+                    <h1>Collections</h1>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <ul class="projects-filter-nav">
+                    <li class="btn-filter" data-filter="*">All</li>
+                    <li class="btn-filter" data-filter=".rest">Formal</li>
+                    <li class="btn-filter" data-filter=".build">Casual</li>
+                    <li class="btn-filter" data-filter=".apart">Premium</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="projects-carousel" class="projects-slider">
+        <div class="single-project set-bg rest" data-setbg="../public/img/projects/1.jpg">
+            <div class="project-content">
+                <h2>Executive <br> Collection</h2>
+                <p>Spring 2024</p>
+                <a href="#" class="seemore">View Collection</a>
+            </div>
+        </div>
+        <div class="single-project set-bg build" data-setbg="../public/img/projects/2.jpg">
+            <div class="project-content">
+                <h2>Casual <br> Comfort</h2>
+                <p>Summer 2024</p>
+                <a href="#" class="seemore">View Collection</a>
+            </div>
+        </div>
+        <div class="single-project set-bg apart" data-setbg="../public/img/projects/3.jpg">
+            <div class="project-content">
+                <h2>Premium <br> Heritage</h2>
+                <p>Fall 2024</p>
+                <a href="#" class="seemore">View Collection</a>
+            </div>
+        </div>
+        <div class="single-project set-bg rest" data-setbg="../public/img/projects/4.jpg">
+            <div class="project-content">
+                <h2>Business <br> Professional</h2>
+                <p>Winter 2024</p>
+                <a href="#" class="seemore">View Collection</a>
+            </div>
+        </div>
+        <div class="single-project set-bg apart" data-setbg="../public/img/projects/2.jpg">
+            <div class="project-content">
+                <h2>Designer <br> Series</h2>
+                <p>Limited Edition</p>
+                <a href="#" class="seemore">View Collection</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Projects section end -->
 
 
-	<!-- Clients section start -->
-	<div class="client-section spad">
-		<div class="container">
-			<div id="client-carousel" class="client-slider">
-				<div class="single-brand">
-					<a href="#">
-						<img src="../public/img/clients/1.png" alt="">
-					</a>
-				</div>
-				<div class="single-brand">
-					<a href="#">
-						<img src="../public/img/clients/2.png" alt="">
-					</a>
-				</div>
-				<div class="single-brand">
-					<a href="#">
-						<img src="../public/img/clients/3.png" alt="">
-					</a>
-				</div>
-				<div class="single-brand">
-					<a href="#">
-						<img src="../public/img/clients/4.png" alt="">
-					</a>
-				</div>
-				<div class="single-brand">
-					<a href="#">
-						<img src="../public/img/clients/5.png" alt="">
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Clients section end -->
+<!-- Clients section start -->
+<div class="client-section spad fade-in-section">
+    <div class="container">
+        <div id="client-carousel" class="client-slider">
+            <div class="single-brand">
+                <a href="#">
+                    <img src="../public/img/clients/1.png" alt="">
+                </a>
+            </div>
+            <div class="single-brand">
+                <a href="#">
+                    <img src="../public/img/clients/2.png" alt="">
+                </a>
+            </div>
+            <div class="single-brand">
+                <a href="#">
+                    <img src="../public/img/clients/3.png" alt="">
+                </a>
+            </div>
+            <div class="single-brand">
+                <a href="#">
+                    <img src="../public/img/clients/4.png" alt="">
+                </a>
+            </div>
+            <div class="single-brand">
+                <a href="#">
+                    <img src="../public/img/clients/5.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Clients section end -->
 
 
-	<?php include 'components/footer.php'; ?>
+<?php include 'components/footer.php'; ?>
 
 </body>
 

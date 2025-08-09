@@ -16,11 +16,12 @@
 	<link rel="stylesheet" href="../public/css/animate.css" />
 	<link rel="stylesheet" href="../public/css/owl.carousel.css" />
 	<link rel="stylesheet" href="../public/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 
 
-	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<!--	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>-->
+<!--	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
 
 
 </head>
@@ -42,4 +43,23 @@
 		</ul>
 	</nav>
 </header>
+
+<div class="left-bar">
+    <div class="left-bar-content">
+
+        <!-- Vertical Rotated Logo Positioned High -->
+        <div class="rotated-logo">
+            <a href="home.php">
+                <img src="../public/img/logo.png" alt="DR Fashions Logo">
+            </a>
+        </div>
+
+        <!-- Social Icons Below -->
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+
+    </div>
+</div>
 <!-- Header section end -->

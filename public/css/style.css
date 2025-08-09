@@ -56,7 +56,7 @@ h4 {
 }
 
 p {
-	font-size: 15px;
+	font-size: 17px;
 	color: #727272;
 	line-height: 2;
 }
@@ -807,9 +807,9 @@ ol {
 
 .cta-section .cta-content .cta-img-icon {
 	display: inline-block;
-	height: 80px;
+	height: 90px;
 	position: relative;
-	width: 50px;
+	width: 60px;
 	margin-right: 40px;
 	margin-bottom: 30px;
 }
@@ -2128,3 +2128,285 @@ ol {
 }
 
 .s2c-0 { margin-top: 50px; }
+
+
+#preloder {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #333;
+    border-top: 3px solid #fff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Hero Section Animations */
+.hero-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.slide-content h2 {
+    animation: slideInUp 1.2s ease-out;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.hero-right-text {
+    animation: slideInRight 1.5s ease-out 0.3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.left-bar {
+    animation: slideInLeft 1s ease-out 0.5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Fade in animation for sections */
+/*.fade-in-section {*/
+/*    opacity: 0;*/
+/*    transform: translateY(30px);*/
+/*    transition: all 0.8s ease-out;*/
+/*}*/
+
+/*.fade-in-section.visible {*/
+/*    opacity: 1;*/
+/*    transform: translateY(0);*/
+/*}*/
+
+/* Service box hover animations */
+.service-box {
+    transition: all 0.3s ease;
+    transform: translateY(0);
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+.sb-icon {
+    transition: transform 0.3s ease;
+}
+
+.service-box:hover .sb-icon {
+    transform: scale(1.1);
+}
+
+/* Milestone counter animation */
+.milestone {
+    text-align: center;
+    padding: 20px 15px;
+    margin-bottom: 15px;
+}
+
+.milestone h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.milestone p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.4;
+    margin: 0;
+}
+
+
+.milestone.animate .counter {
+    animation: countUp 2s ease-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1199px) {
+    .milestone h2 {
+        font-size: 2.5rem;
+    }
+    .milestone p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .milestones-section {
+        padding: 40px 0;
+    }
+
+    .milestone {
+        padding: 15px 10px;
+    }
+
+    .milestone h2 {
+        font-size: 2.2rem;
+        margin-bottom: 5px;
+    }
+
+    .milestone p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .milestone h2 {
+        font-size: 2rem;
+    }
+
+    .milestone p {
+        font-size: 0.85rem;
+    }
+}
+
+@keyframes countUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Project/Collection hover effects */
+.single-project {
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.single-project:hover {
+    transform: scale(1.05);
+}
+
+.project-content {
+    transition: all 0.3s ease;
+}
+
+.single-project:hover .project-content {
+    transform: translateY(-10px);
+}
+
+.seemore {
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.seemore:hover {
+    transform: translateX(5px);
+}
+
+/* Social links animation */
+.social-links a {
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.social-links a:hover {
+    transform: scale(1.2) rotate(5deg);
+}
+
+/* Client logos animation */
+.single-brand {
+    transition: all 0.3s ease;
+    opacity: 0.7;
+}
+
+.single-brand:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Filter navigation animation */
+.btn-filter {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-filter:hover {
+    transform: translateY(-2px);
+}
+
+/* Pulse animation for CTA icons */
+.cta-img-icon {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Loading states */
+.loading {
+    opacity: 0;
+}
+
+.loaded {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}

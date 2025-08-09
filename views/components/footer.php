@@ -2,8 +2,8 @@
 	<footer class="footer-section">
 		<div class="footer-social">
 			<div class="social-links">
-				<a href="#"><i class="fa fa-instagram"></i></a>
-				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa-brands fa-instagram"></i></a>
+				<a href="#"><i class="fa-brands fa-facebook"></i></a>
 			</div>
 		</div>
 		<div class="container">
@@ -46,7 +46,6 @@
 				</div>
 			</div>
 
-			<!-- ✅ CREDIT LINE CENTERED BELOW -->
 			<div class="row mt-3">
 				<div class="col-12 text-center">
 					<div class="footer-credit" style="margin-top: 50px;">
@@ -73,3 +72,4 @@
 	<script src="../public/js/magnific-popup.min.js"></script>
 	<script src="../public/js/circle-progress.min.js"></script>
 	<script src="../public/js/main.js"></script>
+    <script src="../public/js/script.js"></script>
