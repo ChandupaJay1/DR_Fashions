@@ -14,12 +14,21 @@
 
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="page-header-section" style="background-image: url('../public/img/header-bg.jpg'); background-size: cover;">
+
+        <div class="container">
+            <h1 class="header-title">Careers<span>.</span></h1>
+        </div>
+    </section>
+    <!-- Page header section end -->
+
+    <!-- Hero Section -->
+    <!-- <section class="hero">
         <div class="container">
             <h1 class="lead">Join Our Fashion Journey</h1>
             <p class="lead">Be part of a team shaping tomorrow’s style.</p>
         </div>
-    </section>
+    </section> -->
 
     <!-- About Careers -->
     <section class="py-5 text-center">
@@ -93,7 +102,7 @@
     </section>
 
     <?php include 'components/footer.php'; ?>
-    
+
 </body>
 
 </html>

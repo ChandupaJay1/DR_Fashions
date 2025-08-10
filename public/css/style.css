@@ -469,10 +469,14 @@ ol {
 
 .nav-menu ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .nav-menu ul li {
-  display: inline;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
 }
 
 .nav-menu ul li a {
@@ -484,6 +488,7 @@ ol {
   color: #fff;
   font-weight: 500;
   position: relative;
+  text-decoration: none;
 }
 
 .nav-menu ul li a:after {
@@ -495,17 +500,32 @@ ol {
   margin-left: 1px;
   top: 0;
   background: #baff00;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
   transition: all 0.4s;
 }
 
-.nav-menu ul li a:hover:after {
+.nav-menu ul li::before {
+  content: "";
+  position: absolute;
+  top: 0; /* menu height අනුව adjust කරන්න */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
   height: 25px;
+  background-color: #baff00;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
-.nav-menu ul li.active > a:after {
-  height: 25px;
+
+
+/* Hover කරන විට line පෙන්වන්න */
+.nav-menu ul li:hover::before {
+  opacity: 1;
+}
+
+/* Active එකේ line පෙන්වන්න */
+.nav-menu ul li.active::before {
+  opacity: 1;
 }
 
 /*---------------------------------------*/
@@ -2116,7 +2136,7 @@ ol {
 /* Optional: Add underline on hover */
 .footer-item a:hover,
 .footer-credit a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .s2c-0 {
@@ -2454,5 +2474,5 @@ html {
 }
 
 .lead {
-	color: white;
+  color: white;
 }

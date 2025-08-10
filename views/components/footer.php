@@ -39,7 +39,7 @@
 					<div class="footer-item">
 						<ul class="list-unstyled">
 							<li><a href="#">Privacy</a></li>
-							<li><a href="#">Careers</a></li>
+							<li><a href="carreres.php">Careers</a></li>
 							<li><a href="#">Contact us</a></li>
 							<li><a href="#">Clients Testimonials</a></li>
 						</ul>

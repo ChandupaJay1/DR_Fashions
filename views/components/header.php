@@ -68,3 +68,25 @@
     </div>
 </div>
 <!-- Header section end -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const menuItems = document.querySelectorAll(".nav-menu ul li a");
+
+    // Page load වෙද්දී active set කරන්න
+    menuItems.forEach(link => {
+        if (link.href === window.location.href) {
+            menuItems.forEach(i => i.parentElement.classList.remove("active"));
+            link.parentElement.classList.add("active");
+        }
+    });
+
+    // Click event එකේ active change කරන්න
+    menuItems.forEach(link => {
+        link.addEventListener("click", function () {
+            menuItems.forEach(i => i.parentElement.classList.remove("active"));
+            this.parentElement.classList.add("active");
+        });
+    });
+});
+</script>
+<!-- Header section end -->
