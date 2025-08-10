@@ -1,4 +1,5 @@
 <head>
+	
 	<title>DR Fashions</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="DR Fashions website">
@@ -32,13 +33,14 @@
 	<div class="nav-switch">
 		<i class="fa fa-bars"></i>
 	</div>
-	<div class="phone-number">+94 33 xxx xxxx</div>
+	<div class="phone-number">+94 77 295 5780</div>
 	<nav class="nav-menu">
 		<ul>
 			<li class="active"><a href="home.php">Home</a></li>
 			<li><a href="about.php">About us</a></li>
 			<li><a href="service.php">Services</a></li>
 			<li><a href="portfolio.php">Portfolio</a></li>
+			<li><a href="carreres.php">Careers</a></li>
 			<li><a href="contact.php">Contact</a></li>
 		</ul>
 	</nav>

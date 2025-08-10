@@ -55,7 +55,7 @@
                     socially responsible. </p>
             </div>
             <div class="col-lg-5 pt-4">
-                <img src="../public/img/intro.png" alt="">
+                <img src="../public/img/Mission.jpeg" alt="">
             </div>
         </div>
     </div>
@@ -201,7 +201,7 @@
 
 
 <!-- Projects section start -->
-<div class="projects-section pb50 fade-in-section">
+<!-- <div class="projects-section pb50 fade-in-section">
     <div class="container">
         <div class="row">
             <div class="col-lg-3">
@@ -256,7 +256,46 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
+
+<div class="page-section spad">
+		<div class="container">
+			<!-- portfolio filter menu -->
+			<ul class="portfolio-filter">
+				<li class="filter" data-filter="*">All</li>
+				<li class="filter" data-filter=".photo">Photography</li>
+				<li class="filter" data-filter=".design">Design</li>
+				<li class="filter" data-filter=".iden">Identity</li>
+				<li class="filter" data-filter=".corp">Corporate</li>
+				<li class="filter" data-filter=".uxui">UI/UX</li>
+			</ul>
+		</div>
+		<!-- portfolio items -->
+		<div class="portfolio-warp spad">
+			<div id="portfolio">
+				<div class="grid-sizer"></div>
+				<!-- portfolio item -->
+				<div class="grid-item set-bg grid-wide photo" data-setbg="../public/img/portfolio/01.jpg"><a class="img-popup" href="../public/img/portfolio/01.jpg"></a></div>
+				<!-- portfolio item -->
+				<div class="grid-item set-bg design corp" data-setbg="../public/img/portfolio/13.jpg"><a class="img-popup" href="../public/img/portfolio/13.jpg"></a></div>
+				<!-- portfolio item -->
+				<div class="grid-item set-bg iden photo uxui" data-setbg="../public/img/portfolio/21.jpg"><a class="img-popup" href="../public/img/portfolio/21.jpg"></a></div>
+				<!-- portfolio item -->
+				<div class="grid-item set-bg iden photo" data-setbg="../public/img/portfolio/4.jpg"><a class="img-popup" href="../public/img/portfolio/4.jpg"></a></div>
+				<!-- portfolio item -->
+				<div class="grid-item set-bg uxui iden" data-setbg="../public/img/portfolio/5.jpg"><a class="img-popup" href="../public/img/portfolio/5.jpg"></a></div>
+				<!-- portfolio item -->
+				<div class="grid-item set-bg grid-long design corp" data-setbg="../public/img/portfolio/15.jpg"><a class="img-popup" href="../public/img/portfolio/15.jpg"></a></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="pagination">
+				<a href="#">01</a>
+				<a href="" class="active">02</a>
+				<a href="">03</a>
+			</div>
+		</div>
+	</div>
 <!-- Projects section end -->
 
 

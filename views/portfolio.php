@@ -40,17 +40,17 @@
 			<div id="portfolio">
 				<div class="grid-sizer"></div>
 				<!-- portfolio item -->
-				<div class="grid-item set-bg grid-wide photo" data-setbg="../public/img/portfolio/1.jpg"><a class="img-popup" href="../public/img/portfolio/1.jpg"></a></div>
+				<div class="grid-item set-bg grid-wide photo" data-setbg="../public/img/portfolio/01.jpg"><a class="img-popup" href="../public/img/portfolio/01.jpg"></a></div>
 				<!-- portfolio item -->
-				<div class="grid-item set-bg design corp" data-setbg="../public/img/portfolio/2.jpg"><a class="img-popup" href="../public/img/portfolio/2.jpg"></a></div>
+				<div class="grid-item set-bg design corp" data-setbg="../public/img/portfolio/13.jpg"><a class="img-popup" href="../public/img/portfolio/13.jpg"></a></div>
 				<!-- portfolio item -->
-				<div class="grid-item set-bg iden photo uxui" data-setbg="../public/img/portfolio/3.jpg"><a class="img-popup" href="../public/img/portfolio/3.jpg"></a></div>
+				<div class="grid-item set-bg iden photo uxui" data-setbg="../public/img/portfolio/21.jpg"><a class="img-popup" href="../public/img/portfolio/21.jpg"></a></div>
 				<!-- portfolio item -->
-				<div class="grid-item set-bg corp design" data-setbg="../public/img/portfolio/4.jpg"><a class="img-popup" href="../public/img/portfolio/4.jpg"></a></div>
+				<div class="grid-item set-bg iden photo" data-setbg="../public/img/portfolio/4.jpg"><a class="img-popup" href="../public/img/portfolio/4.jpg"></a></div>
 				<!-- portfolio item -->
 				<div class="grid-item set-bg uxui iden" data-setbg="../public/img/portfolio/5.jpg"><a class="img-popup" href="../public/img/portfolio/5.jpg"></a></div>
 				<!-- portfolio item -->
-				<div class="grid-item set-bg grid-long design corp" data-setbg="../public/img/portfolio/6.jpg"><a class="img-popup" href="../public/img/portfolio/6.jpg"></a></div>
+				<div class="grid-item set-bg grid-long design corp" data-setbg="../public/img/portfolio/15.jpg"><a class="img-popup" href="../public/img/portfolio/15.jpg"></a></div>
 			</div>
 		</div>
 		<div class="container">
