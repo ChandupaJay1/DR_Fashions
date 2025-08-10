@@ -74,3 +74,4 @@
 	<script src="../public/js/circle-progress.min.js"></script>
 	<script src="../public/js/main.js"></script>
     <script src="../public/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

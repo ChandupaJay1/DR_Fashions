@@ -5,13 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Careers | Fashion Garments</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../public/css/style.css">
 </head>
 
 <body>
 
     <?php include 'components/header.php'; ?>
+
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
 
     <!-- Hero Section -->
     <section class="hero">
@@ -92,9 +96,7 @@
         </div>
     </section>
 
-    
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <?php include 'components/footer.php'; ?>
     
 </body>
 

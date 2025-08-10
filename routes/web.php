@@ -40,6 +40,12 @@ $router->get('/service', function() {
     $controller->service();
 });
 
+$router->get('/carreres', function() {
+    require __DIR__ . '/../app/controllers/PageController.php';
+    $controller = new PageController();
+    $controller->carreres();
+});
+
 $router->get('/element', function() {
     require __DIR__ . '/../app/controllers/PageController.php';
     $controller = new PageController();

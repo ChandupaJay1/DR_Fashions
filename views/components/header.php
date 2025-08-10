@@ -5,6 +5,7 @@
 	<meta name="description" content="DR Fashions website">
 	<meta name="keywords" content="drfashions, garment, dr, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<!-- Favicon -->
 	<link href="../public/img/favicon.ico" rel="shortcut icon" />
 
@@ -18,7 +19,8 @@
 	<link rel="stylesheet" href="../public/css/owl.carousel.css" />
 	<link rel="stylesheet" href="../public/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/style.css">
 
 
 <!--	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>-->

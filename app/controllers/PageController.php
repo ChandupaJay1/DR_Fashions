@@ -26,6 +26,10 @@ class PageController {
         require __DIR__ . '/../../views/service.php';
     }
 
+    public function carreres() {
+        require __DIR__ . '/../../views/carreres.php';
+    }
+
     public function element() {
         require __DIR__ . '/../../views/element.php';
     }
