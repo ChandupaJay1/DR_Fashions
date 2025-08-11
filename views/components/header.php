@@ -49,12 +49,14 @@
 <div class="left-bar">
     <div class="left-bar-content">
 
-        <!-- Vertical Rotated Logo Positioned High -->
+        <!-- Rotated Logo -->
         <div class="rotated-logo">
             <a href="home.php">
                 <img src="../public/img/logo.png" alt="DR Fashions Logo">
             </a>
         </div>
+
+
 
         <!-- Social Icons Below -->
         <div class="social-links">

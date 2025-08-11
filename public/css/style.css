@@ -538,25 +538,32 @@ ol {
 }
 
 .left-bar {
-  position: absolute;
+  position: absolute  ; /* scroll වුණත් position fix */
+  top: 0;
+  left: 0;
   width: 100px;
   height: 100%;
   background: #121212;
   z-index: 20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* top & bottom items */
+  padding: 20px 0;
 }
 
-.left-bar .left-bar-content {
-  position: absolute;
+.left-bar-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
   width: 100%;
-  bottom: 0;
-  text-align: center;
-  margin-bottom: 90px;
 }
 
 .social-links a {
   display: block;
   color: #838383;
-  margin-bottom: 20px;
+  margin-top: 750px;
   font-size: 20px;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -2108,22 +2115,61 @@ ol {
   width: 90%;
   height: 50%;
 }
+/* Rotated logo fixed positioning */
 .rotated-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px; /* Increased height of container */
+  position: fixed;        /* Fix to screen */
+  top: 80px;             /* Distance from top - moved up */
+  left: -90px;             /* Distance from left */
   transform: rotate(-90deg);
   transform-origin: center;
-  margin: 100px 0 500px 0; /* More top margin to push down */
+  z-index: 9999;          /* Always on top */
+}
+
+.rotated-logo a {
+  display: inline-block;
 }
 
 .rotated-logo img {
-  height: 160px; /* Increase logo size */
+  height: 190px;          /* Bigger logo size */
   width: auto;
-  max-width: 200%;
+  max-width: 280px;
   object-fit: contain;
 }
+
+/* Tablet view adjustments */
+@media (max-width: 1024px) {
+  .rotated-logo {
+    top: 80px;
+    left: -90px;
+  }
+  .rotated-logo img {
+    height: 150px;
+  }
+}
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+  .rotated-logo {
+    top: 80px;
+    left: -90px;
+  }
+  .rotated-logo img {
+    height: 130px;
+  }
+}
+
+/* Small mobile view adjustments */
+@media (max-width: 480px) {
+  .rotated-logo {
+    top: 80px;
+    left: -90px;
+  }
+  .rotated-logo img {
+    height: 110px;
+  }
+}
+
+
 
 /* Make all footer links black */
 .footer-item a,
