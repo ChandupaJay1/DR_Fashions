@@ -2,7 +2,7 @@
 <!-- Footer section start -->
 <footer class="footer-section">
 	<div class="footer-social">
-		<div class="social-links">
+		<div class="social-links-f">
 			<a href="#"><i class="fa-brands fa-instagram"></i></a>
 			<a href="#"><i class="fa-brands fa-facebook"></i></a>
 		</div>

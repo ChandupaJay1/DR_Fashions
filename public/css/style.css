@@ -516,8 +516,6 @@ ol {
   transition: opacity 0.3s ease;
 }
 
-
-
 /* Hover කරන විට line පෙන්වන්න */
 .nav-menu ul li:hover::before {
   opacity: 1;
@@ -538,7 +536,7 @@ ol {
 }
 
 .left-bar {
-  position: absolute  ; /* scroll වුණත් position fix */
+  position: absolute; /* scroll වුණත් position fix */
   top: 0;
   left: 0;
   width: 100px;
@@ -563,7 +561,17 @@ ol {
 .social-links a {
   display: block;
   color: #838383;
-  margin-top: 750px;
+  margin-top: 580px;
+  font-size: 20px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.social-links-f a {
+  display: block;
+  color: #838383;
+  margin-bottom: 20px;
   font-size: 20px;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -1124,6 +1132,13 @@ ol {
   margin-bottom: 4px;
 }
 
+/* Make all footer links black */
+.footer-item a,
+.footer-credit a {
+  color: #000 !important;
+  text-decoration: none;
+  font-size: 15px;
+}
 /*----------------------------------------*/
 /*  Other pages CSS
 /*----------------------------------------*/
@@ -2117,12 +2132,12 @@ ol {
 }
 /* Rotated logo fixed positioning */
 .rotated-logo {
-  position: fixed;        /* Fix to screen */
-  top: 80px;             /* Distance from top - moved up */
-  left: -90px;             /* Distance from left */
+  position: fixed; /* Fix to screen */
+  top: 80px; /* Distance from top - moved up */
+  left: -90px; /* Distance from left */
   transform: rotate(-90deg);
   transform-origin: center;
-  z-index: 9999;          /* Always on top */
+  z-index: 9999; /* Always on top */
 }
 
 .rotated-logo a {
@@ -2130,7 +2145,7 @@ ol {
 }
 
 .rotated-logo img {
-  height: 190px;          /* Bigger logo size */
+  height: 190px; /* Bigger logo size */
   width: auto;
   max-width: 280px;
   object-fit: contain;
@@ -2168,8 +2183,6 @@ ol {
     height: 110px;
   }
 }
-
-
 
 /* Make all footer links black */
 .footer-item a,
@@ -2417,6 +2430,20 @@ ol {
 }
 
 .social-links a:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+
+.seemore:hover {
+  transform: translateX(5px);
+}
+
+/* Social links animation */
+.social-links-f a {
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.social-links-f a:hover {
   transform: scale(1.2) rotate(5deg);
 }
 
