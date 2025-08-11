@@ -1,6 +1,6 @@
 
 <head>
-    <link rel="icon" type="image/x-icon" href="/DR_Fashions/public/img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../public/img/favicon.ico">
 </head>
 
 <body>

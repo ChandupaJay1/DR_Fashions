@@ -584,6 +584,7 @@ ol {
 
 .hero-right-text {
   position: absolute;
+    top: 44em;
   right: 140px;
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
