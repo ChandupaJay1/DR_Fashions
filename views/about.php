@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
+    <link rel="icon" type="image/x-icon" href="/DR_Fashions/public/img/favicon.ico">
+</head>
+
 <body>
 
 	<?php include 'components/header.php'; ?>
