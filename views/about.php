@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
+    <link rel="icon" type="image/x-icon" href="/DR_Fashions/public/img/favicon.ico">
+</head>
+
 <body>
 
 	<?php include 'components/header.php'; ?>
@@ -25,13 +29,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 intro-text">
-					<h1>We are a creative Architecture<span>Studio</span></h1>
+					<h1>About <span>Us</span></h1>
 					<div class="row">
-						<div class="col-md-6">
-							<p>Pellentesque lorem dolor, malesuada eget tortor vitae, tristique lacinia lectus. Pellentesque sed accumsan risus, id aliquam nulla. Integer lorem risus, feugiat at mauris malesuada, accumsan pellentesque ipsum. Nunc dapibus, libero ut pulvinar accumsan, tortor nisl iaculis ligula. </p>
-						</div>
-						<div class="col-md-6">
-							<p>Curabitur finibus dolor vel lectus pretium interdum a eget ante. Morbi rhoncus feugiat imperdiet. Curabitur non maximus leo. Nulla in ipsum sed magna egestas bibendum. Integer in sem sagittis, commodo mi sit amet, commodo nibh. Suspendisse potenti. Aliquam erat volutpat. </p>
+						<div class="col-md-10">
+							<p>At DR Fashions, we are passionate about crafting the perfect pair of trousers.
+                                With a dedication to exceptional quality, we carefully select the finest materials to
+                                create products that are stylish, comfortable, and built to last.
+                                Our journey is guided by a strong commitment to sustainability and ethical practices.
+                                From environmentally friendly manufacturing processes to fair and responsible workplace
+                                standards, we ensure that every step we take respects both people and the planet.
+                                Driven by our mission to lead the industry in high-quality trousers, we blend timeless
+                                design with modern comfort—so our customers can look and feel their best, every day. </p>
 						</div>
 					</div>
 				</div>

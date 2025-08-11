@@ -1,41 +1,59 @@
 <?php
 
-require_once __DIR__ . '/../core/Router.php';
-require_once __DIR__ . '/../app/controllers/PageController.php';
+use Bramus\Router\Router;
 
 $router = new Router();
 
-$router->add('GET', '/', function () {
+$router->get('/', function() {
+    require __DIR__ . '/../app/controllers/PageController.php';
     $controller = new PageController();
     $controller->home();
 });
 
-$router->add('GET', '/about', function () {
+$router->get('/about', function() {
+    require __DIR__ . '/../app/controllers/PageController.php';
     $controller = new PageController();
     $controller->about();
 });
 
-$router->add('GET', '/blog', function () {
-    $controller = new PageController();
-    $controller->blog();
-});
-
-$router->add('GET', '/contact', function () {
+$router->get('/contact', function() {
+    require __DIR__ . '/../app/controllers/PageController.php';
     $controller = new PageController();
     $controller->contact();
 });
 
-$router->add('GET', '/element', function () {
+$router->get('/blog', function() {
+    require __DIR__ . '/../app/controllers/PageController.php';
     $controller = new PageController();
-    $controller->element();
+    $controller->blog();
 });
 
-$router->add('GET', '/portfolio', function () {
+$router->get('/portfolio', function() {
+    require __DIR__ . '/../app/controllers/PageController.php';
     $controller = new PageController();
     $controller->portfolio();
 });
 
-$router->add('GET', '/service', function () {
+$router->get('/service', function() {
+    require __DIR__ . '/../app/controllers/PageController.php';
     $controller = new PageController();
     $controller->service();
+});
+
+$router->get('/carreres', function() {
+    require __DIR__ . '/../app/controllers/PageController.php';
+    $controller = new PageController();
+    $controller->carreres();
+});
+
+$router->get('/element', function() {
+    require __DIR__ . '/../app/controllers/PageController.php';
+    $controller = new PageController();
+    $controller->element();
+});
+
+// 404 handler
+$router->set404(function() {
+    header('HTTP/1.1 404 Not Found');
+    echo "404 - Page Not Found";
 });
