@@ -1,17 +1,17 @@
-
 <!-- Footer section start -->
-<footer class="footer-section">
-	<div class="footer-social">
+<footer class="footer-section py-5 bg-light">
+	<!-- Social Links -->
+	<div class="footer-social text-center mb-4">
 		<div class="social-links-f">
-			<a href="#"><i class="fa-brands fa-instagram"></i></a>
-			<a href="#"><i class="fa-brands fa-facebook"></i></a>
+			<a href="#" class="mx-2"><i class="fa-brands fa-instagram fa-lg"></i></a>
+			<a href="#" class="mx-2"><i class="fa-brands fa-facebook fa-lg"></i></a>
 		</div>
 	</div>
-	<div class="container">
-		<div class="row justify-content-between text-center txT">
 
-			<!-- 🟩 LEFT COLUMN -->
-			<div class="col-md-4 ">
+	<div class="container">
+		<div class="row justify-content-center text-center">
+			<!-- LEFT COLUMN -->
+			<div class="col-md-3 col-sm-6 mb-4">
 				<div class="footer-item">
 					<ul class="list-unstyled">
 						<li><a href="home.php">Home</a></li>
@@ -23,8 +23,8 @@
 				</div>
 			</div>
 
-			<!-- 🟨 CENTER COLUMN -->
-			<div class="col-md-4 text-center">
+			<!-- CENTER COLUMN -->
+			<div class="col-md-3 col-sm-6 mb-4">
 				<div class="footer-item">
 					<ul class="list-unstyled">
 						<li><a href="#">Terms & Conditions</a></li>
@@ -35,8 +35,8 @@
 				</div>
 			</div>
 
-			<!-- 🟥 RIGHT COLUMN -->
-			<div class="col-md-4 text-end">
+			<!-- RIGHT COLUMN -->
+			<div class="col-md-3 col-sm-6 mb-4">
 				<div class="footer-item">
 					<ul class="list-unstyled">
 						<li><a href="#">Privacy</a></li>
@@ -48,24 +48,79 @@
 			</div>
 		</div>
 
-		<div class="row mt-3">
-			<div class="col-12 text-center">
-				<div class="footer-credit" style="margin-top: 50px;">
-					<a rel="nofollow" href="https://www.facebook.com/nerdtechinfo" target="_blank">
-						Designed And Published By NerdTech Software Development LK.
-						<img src="../public/img/nerdtech.png" alt="NerdTech Logo" class="ft-logo">
-					</a>
+		<!-- Footer credit -->
+		<div class="row mt-4">
+			<div class="footer-social text-center mb-4">
+				<div class="social-links-f">
+					<a href="#"><i class="fa-brands fa-instagram"></i></a>
+					<a href="#"><i class="fa-brands fa-facebook"></i></a>
 				</div>
 			</div>
 		</div>
 	</div>
-
-
-	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-
 </footer>
 <!-- Footer section end -->
 
+<!-- Optional CSS -->
+<style>
+	.social-links-f {
+		display: flex;
+		justify-content: center;
+		gap: 15px;
+		/* space between icons */
+	}
+
+	.social-links-f a {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background: none;
+		/* remove black background */
+		color: #000;
+		/* icon color */
+		font-size: 20px;
+		transition: all 0.3s ease;
+		text-decoration: none;
+	}
+
+	.social-links-f a:hover {
+		color: white;
+		background: #333;
+		/* hover background if needed */
+	}
+
+
+	.footer-section a {
+		color: #000;
+		text-decoration: none;
+	}
+
+	.footer-section a:hover {
+		text-decoration: underline;
+	}
+
+	.footer-item ul {
+		padding: 0;
+		margin: 0;
+	}
+
+	.footer-item li {
+		margin-bottom: 8px;
+	}
+
+	.social-links-f a {
+		color: #cebebeff;
+	}
+
+	.social-links-f a:hover {
+		color: #6cdb17ff;
+	}
+</style>
+
+<!-- Scripts -->
 <script src="../public/js/jquery-2.1.4.min.js"></script>
 <script src="../public/js/bootstrap.min.js"></script>
 <script src="../public/js/isotope.pkgd.min.js"></script>
