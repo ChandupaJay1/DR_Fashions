@@ -202,7 +202,7 @@
 
             <div class="col-lg-3">
                 <div class="section-title">
-                    <h1>Projects</h1>
+                    <h1>Collections</h1>
                 </div>
             </div>
 
