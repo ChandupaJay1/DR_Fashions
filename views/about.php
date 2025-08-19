@@ -87,42 +87,104 @@
 
 
 	<!-- Team section start -->
-	<section class="team-section spad">
-		<div class="container">
-			<div class="section-title mb100">
-				<h1>The Team</h1>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<div class="team-member">
-						<img src="..//public/img/team/1.jpg" alt="">
-						<div class="member-info">
-							<h2>Jack Smith</h2>
-							<p>Senior Architect</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="team-member">
-						<img src="..//public/img/team/2.jpg" alt="">
-						<div class="member-info">
-							<h2>Lili Jameson</h2>
-							<p>Senior Architect</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="team-member">
-						<img src="..//public/img/team/3.jpg" alt="">
-						<div class="member-info">
-							<h2>Michael Dow</h2>
-							<p>Senior Architect</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <section class="team-section spad">
+        <div class="container">
+            <!-- Stores Team -->
+            <div class="section-title mb-5">
+                <h1>Team</h1>
+            </div>
+            <div class="row mb-5">  <!-- Added mb-5 for bottom margin -->
+                <div class="col-lg-4 col-md-6 mb-4">  <!-- Added mb-4 for gap between rows -->
+                    <div class="team-member">
+                        <img src="../public/img/team/1.jpeg" alt="">
+                        <div class="member-info">
+                            <h2>Name Here</h2>
+                            <p>Position</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-member">
+                        <img src="../public/img/team/2.jpeg" alt="">
+                        <div class="member-info">
+                            <h2>Name Here</h2>
+                            <p>Position</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-member">
+                        <img src="../public/img/team/3.jpeg" alt="">
+                        <div class="member-info">
+                            <h2>Name Here</h2>
+                            <p>Position</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Taste Team -->
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-member">
+                        <img src="../public/img/team/4.jpeg" alt="">
+                        <div class="member-info">
+                            <h2>Name Here</h2>
+                            <p>Position</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-member">
+                        <img src="../public/img/team/5.jpeg" alt="">
+                        <div class="member-info">
+                            <h2>Name Here</h2>
+                            <p>Position</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-member">
+                        <img src="../public/img/team/6.jpeg" alt="">
+                        <div class="member-info">
+                            <h2>Name Here</h2>
+                            <p>Position</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-member">
+                        <img src="../public/img/team/7.jpeg" alt="">
+                        <div class="member-info">
+                            <h2>Name Here</h2>
+                            <p>Position</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-member">
+                        <img src="../public/img/team/8.jpeg" alt="">
+                        <div class="member-info">
+                            <h2>Name Here</h2>
+                            <p>Position</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-member">
+                        <img src="../public/img/team/9.jpeg" alt="">
+                        <div class="member-info">
+                            <h2>Name Here</h2>
+                            <p>Position</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 	<!-- Team section end -->
 
 
