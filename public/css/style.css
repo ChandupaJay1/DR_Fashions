@@ -119,6 +119,11 @@ ol {
   padding: 100px 0;
 }
 
+.spad-01 {
+  padding-top: 350px; /* More top space */
+  padding-bottom: 200px;
+}
+
 .section-title {
   margin-bottom: 75px;
 }
@@ -200,6 +205,8 @@ ol {
   background-color: transparent;
   margin-right: 15px;
   z-index: 1;
+  transition: all 0.3s ease; /* Smooth effect for all changes */
+  cursor: pointer;
 }
 
 .site-btn:after,
@@ -257,6 +264,26 @@ ol {
 .site-btn.sb-solid-dark:before {
   background: #baff00;
 }
+
+/* Hover effect: Green active style */
+.site-btn:hover {
+  background-color: #28a745; /* Green background */
+  border-color: #28a745; /* Green border */
+  color: white; /* White text */
+}
+
+.site-btn:hover:after,
+.site-btn:hover:before {
+  background: white; /* Change side lines to white */
+}
+
+/* Optional: Keep green color when clicked */
+.site-btn:active {
+  background-color: #218838; /* Darker green when pressed */
+  border-color: #218838;
+}
+
+/* Button Contact */
 
 .element {
   margin-bottom: 100px;
@@ -584,7 +611,6 @@ ol {
 
 .hero-right-text {
   position: absolute;
-    top: 44em;
   right: 140px;
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
@@ -1144,7 +1170,7 @@ ol {
 /*  Other pages CSS
 /*----------------------------------------*/
 .page-header-section {
-  height: 445px;
+  height: 620px;
   padding-top: 200px;
 }
 
@@ -1221,48 +1247,7 @@ ol {
   color: #fff;
 }
 
-.team-member {
-  padding-right: 67px;
-  position: relative;
-}
-
-.team-member img {
-  min-width: 100%;
-}
-
-.team-member .member-info {
-  position: absolute;
-  padding-left: 35px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 230px;
-  background: #fff;
-  bottom: 37px;
-  right: 0;
-  -webkit-box-shadow: 6px 7px 20px rgba(114, 114, 114, 0.21);
-  box-shadow: 6px 7px 20px rgba(114, 114, 114, 0.21);
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
-}
-
-.team-member .member-info h2 {
-  font-size: 30px;
-  margin-bottom: 0;
-}
-
-.team-member .member-info p {
-  color: #222222;
-  font-size: 15px;
-  font-weight: 500;
-  margin-bottom: 0;
-}
-
-.team-member:hover .member-info {
-  background: #baff00;
-  -webkit-box-shadow: 0px 0px 0px rgba(114, 114, 114, 0.21);
-  box-shadow: 0px 0px 0px rgba(114, 114, 114, 0.21);
-}
+/*Scroll down to the team section*/
 
 .promo-section {
   padding-top: 90px;
@@ -1282,7 +1267,7 @@ ol {
 
 .slide-num-holder.test-slider {
   right: auto;
-  left: 100%;
+  left: 90%;
   bottom: -160px;
   width: 160px;
   height: 230px;
@@ -1769,16 +1754,7 @@ ol {
   width: 40%;
 }
 
-.portfolio-warp .grid-item a {
-  width: 100%;
-  height: 100%;
-  display: block;
-  background: rgba(186, 255, 0, 0.45);
-  opacity: 0;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
-}
+
 
 .portfolio-warp .grid-item a:after {
   position: absolute;
@@ -1896,9 +1872,9 @@ ol {
     font-size: 12px;
     margin-right: 10px;
   }
-  .team-member {
-    margin-bottom: 30px;
-  }
+  /*.team-member {*/
+  /*  margin-bottom: 30px;*/
+  /*}*/
   .portfolio-warp .grid-item {
     width: 50%;
   }
@@ -2549,4 +2525,90 @@ html {
 
 .lead {
   color: white;
+}
+
+.ab {
+  margin-top: 100px;
+}
+
+
+/* Team section */
+.team-section {
+    text-align: center;
+    padding: 80px 0;
+    background: linear-gradient(135deg, #f9f9f9, #f0f0f0);
+}
+
+.section-title h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.section-title .subtitle {
+    font-size: 1rem;
+    color: #666;
+}
+
+.team-member {
+    margin-bottom: 30px;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.team-member img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: transform 0.4s ease;
+}
+
+.team-member:hover img {
+    transform: scale(1.05);
+}
+
+.team-member:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+}
+
+.team-member.leader img {
+    width: 190px;
+    height: 190px;
+    border: 4px solid gold;
+}
+
+.member-info {
+    margin-top: 20px;
+}
+
+.member-info h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #222;
+}
+
+.member-info p {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Oval effect using spacing */
+.row.justify-content-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row.justify-content-center:nth-of-type(2) {
+    transform: translateY(20px);
+}
+
+.row.justify-content-center:nth-of-type(3) {
+    transform: translateY(40px);
 }

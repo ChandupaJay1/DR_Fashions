@@ -38,10 +38,10 @@
 					<p>Address: No.195/1 Pahalamadampella, Welekadehandiya, Akaragama </p>
 					<p>Phone: 077 295 5780</p>
 					<p>Email: drfashions.official@gmail.com</p>
-<!--					<div class="cf-social">-->
-<!--						<a href="#"><i class="fa-brands fa-instagram"></i></a>-->
-<!--						<a href="#"><i class="fa-brands fa-facebook"></i></a>-->
-<!--					</div>-->
+					<div class="cf-social">
+						<a href="#"><i class="fa-brands fa-instagram"></i></a>
+						<a href="#"><i class="fa-brands fa-facebook"></i></a>
+					</div>
 				</div>
 				<div class="col-lg-9">
 					<form class="contact-form" action="send_mail.php" method="POST">

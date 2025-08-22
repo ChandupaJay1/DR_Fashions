@@ -93,87 +93,81 @@
 
 
 	<!-- Service section start -->
-	<section class="service-section spad">
-		<div class="container">
-			<div class="section-title">
-				<h1>Services</h1>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<div class="service-box">
-						<div class="sb-icon">
-							<div class="sb-img-icon">
-								<img src="../public/img/icon/dark/1.png" alt="">
-							</div>
-						</div>
-						<h3>Plans and Projects</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-						<a href="#" class="readmore">READ MORE</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="service-box">
-						<div class="sb-icon">
-							<div class="sb-img-icon">
-								<img src="../public/img/icon/dark/2.png" alt="">
-							</div>
-						</div>
-						<h3>Conceptual Architecture</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-						<a href="#" class="readmore">READ MORE</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="service-box">
-						<div class="sb-icon">
-							<div class="sb-img-icon">
-								<img src="../public/img/icon/dark/3.png" alt="">
-							</div>
-						</div>
-						<h3>Apartment Buildings</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-						<a href="#" class="readmore">READ MORE</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="service-box">
-						<div class="sb-icon">
-							<div class="sb-img-icon">
-								<img src="../public/img/icon/dark/4.png" alt="">
-							</div>
-						</div>
-						<h3>Skyscrapers Buildings</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-						<a href="#" class="readmore">READ MORE</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="service-box">
-						<div class="sb-icon">
-							<div class="sb-img-icon">
-								<img src="../public/img/icon/dark/5.png" alt="">
-							</div>
-						</div>
-						<h3>Documentation</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-						<a href="#" class="readmore">READ MORE</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="service-box">
-						<div class="sb-icon">
-							<div class="sb-img-icon">
-								<img src="../public/img/icon/dark/6.png" alt="">
-							</div>
-						</div>
-						<h3>Restauration Projects</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-						<a href="#" class="readmore">READ MORE</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <section class="service-section spad fade-in-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Services</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">
+                        <div class="sb-icon">
+                            <div class="sb-img-icon">
+                                <img src="../public/img/icon/dark/1.png" alt="">
+                            </div>
+                        </div>
+                        <h3>Custom Tailoring</h3>
+                        <p>Premium custom-fit trousers designed to your exact measurements and style preferences. Our expert tailors ensure perfect fit and comfort for every body type.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">
+                        <div class="sb-icon">
+                            <div class="sb-img-icon">
+                                <img src="../public/img/icon/dark/2.png" alt="">
+                            </div>
+                        </div>
+                        <h3>Quality Alterations</h3>
+                        <p>Professional alteration services to ensure your trousers fit perfectly. From hemming to waist adjustments, we provide precise modifications for the ideal fit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">
+                        <div class="sb-icon">
+                            <div class="sb-img-icon">
+                                <img src="../public/img/icon/dark/3.png" alt="">
+                            </div>
+                        </div>
+                        <h3>Fabric Consultation</h3>
+                        <p>Expert guidance on selecting the finest fabrics for your trousers. We help you choose materials that match your style, occasion, and durability requirements.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">
+                        <div class="sb-icon">
+                            <div class="sb-img-icon">
+                                <img src="../public/img/icon/dark/4.png" alt="">
+                            </div>
+                        </div>
+                        <h3>Style Consultation</h3>
+                        <p>Personal styling services to help you choose the right trouser styles for your wardrobe. Our consultants guide you through cuts, colors, and fashion trends.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">
+                        <div class="sb-icon">
+                            <div class="sb-img-icon">
+                                <img src="../public/img/icon/dark/5.png" alt="">
+                            </div>
+                        </div>
+                        <h3>Corporate Orders</h3>
+                        <p>Bulk orders for corporate uniforms and professional wear. We provide consistent quality and styling for businesses requiring employee trouser uniforms.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">
+                        <div class="sb-icon">
+                            <div class="sb-img-icon">
+                                <img src="../public/img/icon/dark/6.png" alt="">
+                            </div>
+                        </div>
+                        <h3>Care & Maintenance</h3>
+                        <p>Comprehensive care instructions and maintenance services to keep your trousers looking pristine. Professional cleaning and preservation techniques available.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 	<!-- Service section end -->
 
 

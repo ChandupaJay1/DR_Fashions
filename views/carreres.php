@@ -36,7 +36,7 @@
     </section> -->
 
     <!-- About Careers -->
-    <section class="py-5 text-center">
+    <section class="py-5 text-center ab">
         <div class="container">
             <h2>Why Work With Us?</h2>
             <p class="text-muted">
@@ -90,8 +90,15 @@
                     <input type="email" class="form-control" placeholder="Your Email">
                 </div>
                 <div class="mb-3">
-                    <label class="form-label">Position Applying For</label>
-                    <input type="text" class="form-control" placeholder="e.g. Fashion Designer">
+                    <label for="position">Position Applying For</label>
+                    <select id="position" name="position" style="width:100%; padding:10px; border-radius:6px; border:1px solid #ccc;">
+                        <option value="" disabled selected>e.g. Fashion Designer</option>
+                        <option value="fashion_designer">Fashion Designer</option>
+                        <option value="graphic_designer">Graphic Designer</option>
+                        <option value="merchandiser">Merchandiser</option>
+                        <option value="sewing_machine_operator">Sewing Machine Operator</option>
+                        <option value="quality_checker">Quality Checker</option>
+                    </select>
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Upload CV</label>

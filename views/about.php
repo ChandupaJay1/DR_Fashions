@@ -86,44 +86,120 @@
 
 
 
-	<!-- Team section start -->
-	<section class="team-section spad">
-		<div class="container">
-			<div class="section-title mb100">
-				<h1>The Team</h1>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<div class="team-member">
-						<img src="..//public/img/team/1.jpg" alt="">
-						<div class="member-info">
-							<h2>Jack Smith</h2>
-							<p>Senior Architect</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="team-member">
-						<img src="..//public/img/team/2.jpg" alt="">
-						<div class="member-info">
-							<h2>Lili Jameson</h2>
-							<p>Senior Architect</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="team-member">
-						<img src="..//public/img/team/3.jpg" alt="">
-						<div class="member-info">
-							<h2>Michael Dow</h2>
-							<p>Senior Architect</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Team section end -->
+    <!-- Team section start -->
+    <section class="team-section spad">
+        <div class="container">
+            <div class="section-title mb-5">
+                <h1>Our Team</h1>
+                <p class="subtitle">Meet the people who make everything possible</p>
+            </div>
+
+            <!-- Leaders Row -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="team-member leader">
+                        <img src="../public/img/team/2.jpeg" alt="Team Leader">
+                        <div class="member-info">
+                            <h2>Dammika</h2>
+                            <p>Team Leader</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="team-member leader">
+                        <img src="../public/img/team/1.jpeg" alt="Team Leader">
+                        <div class="member-info">
+                            <h2>Kasun</h2>
+                            <p>Co-Leader</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Middle Oval -->
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-2 col-md-3">
+                    <div class="team-member">
+                        <img src="../public/img/team/6.jpeg" alt="Team Member">
+                        <div class="member-info">
+                            <h2>Name Here</h2>
+                            <p>Position</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3">
+                    <div class="team-member">
+                        <img src="../public/img/team/7.jpeg" alt="Team Member">
+                        <div class="member-info">
+                            <h2>Name Here</h2>
+                            <p>Position</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3">
+                    <div class="team-member">
+                        <img src="../public/img/team/8.jpeg" alt="Team Member">
+                        <div class="member-info">
+                            <h2>Name Here</h2>
+                            <p>Position</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3">
+                    <div class="team-member">
+                        <img src="../public/img/team/9.jpeg" alt="Team Member">
+                        <div class="member-info">
+                            <h2>Name Here</h2>
+                            <p>Position</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Oval -->
+            <div class="row justify-content-center">
+                <div class="col-lg-2 col-md-3">
+                    <div class="team-member">
+                        <img src="../public/img/team/6.jpeg" alt="Team Member">
+                        <div class="member-info">
+                            <h2>Name Here</h2>
+                            <p>Position</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3">
+                    <div class="team-member">
+                        <img src="../public/img/team/7.jpeg" alt="Team Member">
+                        <div class="member-info">
+                            <h2>Name Here</h2>
+                            <p>Position</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3">
+                    <div class="team-member">
+                        <img src="../public/img/team/8.jpeg" alt="Team Member">
+                        <div class="member-info">
+                            <h2>Name Here</h2>
+                            <p>Position</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3">
+                    <div class="team-member">
+                        <img src="../public/img/team/9.jpeg" alt="Team Member">
+                        <div class="member-info">
+                            <h2>Name Here</h2>
+                            <p>Position</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Team section end -->
+
 
 
 	<section class="promo-section">

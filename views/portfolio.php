@@ -3,7 +3,7 @@
 
 
 <head>
-    <link rel="icon" type="image/x-icon" href="/DR_Fashions/public/img/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="/DR_Fashions/public/img/favicon.ico">
 </head>
 
 <body>
@@ -14,8 +14,8 @@
 	<div id="preloder">
 		<div class="loader"></div>
 	</div>
-	
-	
+
+
 
 
 	<!-- Page header section start -->
@@ -28,48 +28,49 @@
 
 
 	<!-- Page section start -->
-	<div class="page-section spad">
+	<div class="page-section spad-01">
 		<div class="container">
 			<!-- portfolio filter menu -->
 			<ul class="portfolio-filter">
-				<li class="filter" data-filter="*">All</li>
-				<li class="filter" data-filter=".photo">Photography</li>
-				<li class="filter" data-filter=".design">Design</li>
-				<li class="filter" data-filter=".iden">Identity</li>
-				<li class="filter" data-filter=".corp">Corporate</li>
-				<li class="filter" data-filter=".uxui">UI/UX</li>
-			</ul>
+                <li class="filter" data-filter="*">All</li>
+                <li class="filter" data-filter=".Office">Office</li>
+                <li class="filter" data-filter=".Factory">Factory</li>
+                <li class="filter" data-filter=".Staff">Staff employees</li>
+            </ul>
 		</div>
 		<!-- portfolio items -->
 		<div class="portfolio-warp spad">
-			<div id="portfolio">
-				<div class="grid-sizer"></div>
-				<!-- portfolio item -->
-				<div class="grid-item set-bg grid-wide photo" data-setbg="../public/img/portfolio/01.jpg"><a class="img-popup" href="../public/img/portfolio/01.jpg"></a></div>
-				<!-- portfolio item -->
-				<div class="grid-item set-bg design corp" data-setbg="../public/img/portfolio/13.jpg"><a class="img-popup" href="../public/img/portfolio/13.jpg"></a></div>
-				<!-- portfolio item -->
-				<div class="grid-item set-bg iden photo uxui" data-setbg="../public/img/portfolio/21.jpg"><a class="img-popup" href="../public/img/portfolio/21.jpg"></a></div>
-				<!-- portfolio item -->
-				<div class="grid-item set-bg iden photo" data-setbg="../public/img/portfolio/4.jpg"><a class="img-popup" href="../public/img/portfolio/4.jpg"></a></div>
-				<!-- portfolio item -->
-				<div class="grid-item set-bg uxui iden" data-setbg="../public/img/portfolio/5.jpg"><a class="img-popup" href="../public/img/portfolio/5.jpg"></a></div>
-				<!-- portfolio item -->
-				<div class="grid-item set-bg grid-long design corp" data-setbg="../public/img/portfolio/15.jpg"><a class="img-popup" href="../public/img/portfolio/15.jpg"></a></div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="pagination">
-				<a href="#">01</a>
-				<a href="" class="active">02</a>
-				<a href="">03</a>
-			</div>
-		</div>
+            <div id="portfolio">
+                <div class="grid-sizer"></div>
+                <!-- portfolio item -->
+                <div class="grid-item set-bg grid-wide photo" data-setbg="../public/img/portfolio/01.jpg"><a href="../public/img/portfolio/01.jpg"></a></div>
+                <!-- portfolio item -->
+                <div class="grid-item set-bg Factory " data-setbg="../public/img/portfolio/13.jpg"><a href="../public/img/portfolio/13.jpg"></a></div>
+                <!-- portfolio item -->
+                <div class="grid-item set-bg   Office" data-setbg="../public/img/portfolio/21.jpg"><a href="../public/img/portfolio/21.jpg"></a></div>
+                <div class="grid-item set-bg   Office" data-setbg="../public/img/portfolio/19.jpg"><a href="../public/img/portfolio/19.jpg"></a></div>
+                <!-- portfolio item -->
+                <div class="grid-item set-bg  Factory" data-setbg="../public/img/portfolio/4.jpg"><a href="../public/img/portfolio/4.jpg"></a></div>
+                <!-- portfolio item -->
+                <div class="grid-item set-bg uxui Factory" data-setbg="../public/img/portfolio/5.jpg"><a href="../public/img/portfolio/5.jpg"></a></div>
+                <!-- portfolio item -->
+                <div class="grid-item set-bg  Staff" data-setbg="../public/img/portfolio/15.jpg"><a href="../public/img/portfolio/15.jpg"></a></div>
+
+                <div class="grid-item set-bg  Staff" data-setbg="../public/img/portfolio/18.jpg"><a href="../public/img/portfolio/15.jpg"></a></div>
+
+                <div class="grid-item set-bg  " data-setbg="../public/img/portfolio/7.jpg"><a href="../public/img/portfolio/7.jpg"></a></div>
+
+                <div class="grid-item set-bg  Office" data-setbg="../public/img/portfolio/22.jpg"><a href="../public/img/portfolio/22.jpg"></a></div>
+                
+                
+                <div class="grid-item set-bg grid-long  Staff" data-setbg="../public/img/portfolio/8.jpg"><a href="../public/img/portfolio/8.jpg"></a></div>
+                
+            </div>
+        </div>
+
 	</div>
-	<!-- Page section end -->
-
-
-
 	<?php include 'components/footer.php'; ?>
+	<!-- Page section end -->
 </body>
+
 </html>
