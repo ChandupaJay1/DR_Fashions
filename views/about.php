@@ -86,35 +86,68 @@
 
 
 
-	<!-- Team section start -->
+    <!-- Team section start -->
     <section class="team-section spad">
         <div class="container">
-            <!-- Stores Team -->
             <div class="section-title mb-5">
-                <h1>Team</h1>
+                <h1>Our Team</h1>
+                <p class="subtitle">Meet the people who make everything possible</p>
             </div>
-            <div class="row mb-5">  <!-- Added mb-5 for bottom margin -->
-                <div class="col-lg-4 col-md-6 mb-4">  <!-- Added mb-4 for gap between rows -->
+
+            <!-- Leaders Row -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="team-member leader">
+                        <img src="../public/img/team/2.jpeg" alt="Team Leader">
+                        <div class="member-info">
+                            <h2>Dammika</h2>
+                            <p>Team Leader</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="team-member leader">
+                        <img src="../public/img/team/1.jpeg" alt="Team Leader">
+                        <div class="member-info">
+                            <h2>Kasun</h2>
+                            <p>Co-Leader</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Middle Oval -->
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-2 col-md-3">
                     <div class="team-member">
-                        <img src="../public/img/team/1.jpeg" alt="">
+                        <img src="../public/img/team/6.jpeg" alt="Team Member">
                         <div class="member-info">
                             <h2>Name Here</h2>
                             <p>Position</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-2 col-md-3">
                     <div class="team-member">
-                        <img src="../public/img/team/2.jpeg" alt="">
+                        <img src="../public/img/team/7.jpeg" alt="Team Member">
                         <div class="member-info">
                             <h2>Name Here</h2>
                             <p>Position</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-2 col-md-3">
                     <div class="team-member">
-                        <img src="../public/img/team/3.jpeg" alt="">
+                        <img src="../public/img/team/8.jpeg" alt="Team Member">
+                        <div class="member-info">
+                            <h2>Name Here</h2>
+                            <p>Position</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3">
+                    <div class="team-member">
+                        <img src="../public/img/team/9.jpeg" alt="Team Member">
                         <div class="member-info">
                             <h2>Name Here</h2>
                             <p>Position</p>
@@ -123,29 +156,38 @@
                 </div>
             </div>
 
-            <!-- Taste Team -->
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
+            <!-- Bottom Oval -->
+            <div class="row justify-content-center">
+                <div class="col-lg-2 col-md-3">
                     <div class="team-member">
-                        <img src="../public/img/team/4.jpeg" alt="">
+                        <img src="../public/img/team/6.jpeg" alt="Team Member">
                         <div class="member-info">
                             <h2>Name Here</h2>
                             <p>Position</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-2 col-md-3">
                     <div class="team-member">
-                        <img src="../public/img/team/5.jpeg" alt="">
+                        <img src="../public/img/team/7.jpeg" alt="Team Member">
                         <div class="member-info">
                             <h2>Name Here</h2>
                             <p>Position</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-2 col-md-3">
                     <div class="team-member">
-                        <img src="../public/img/team/6.jpeg" alt="">
+                        <img src="../public/img/team/8.jpeg" alt="Team Member">
+                        <div class="member-info">
+                            <h2>Name Here</h2>
+                            <p>Position</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3">
+                    <div class="team-member">
+                        <img src="../public/img/team/9.jpeg" alt="Team Member">
                         <div class="member-info">
                             <h2>Name Here</h2>
                             <p>Position</p>
@@ -154,38 +196,10 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="team-member">
-                        <img src="../public/img/team/7.jpeg" alt="">
-                        <div class="member-info">
-                            <h2>Name Here</h2>
-                            <p>Position</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="team-member">
-                        <img src="../public/img/team/8.jpeg" alt="">
-                        <div class="member-info">
-                            <h2>Name Here</h2>
-                            <p>Position</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="team-member">
-                        <img src="../public/img/team/9.jpeg" alt="">
-                        <div class="member-info">
-                            <h2>Name Here</h2>
-                            <p>Position</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
-	<!-- Team section end -->
+    <!-- Team section end -->
+
 
 
 	<section class="promo-section">
