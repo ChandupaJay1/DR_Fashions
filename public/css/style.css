@@ -2070,6 +2070,15 @@ ol {
   .projects-filter-nav {
     text-align: left;
   }
+
+  /* Mobile view (<= 767px) සඳහා nav-menu line hide කරන්න */
+@media only screen and (max-width: 767px) {
+  .nav-menu ul li::before {
+    display: none !important;
+  }
+}
+
+
 }
 
 /* small mobile :320px. */
@@ -2855,3 +2864,16 @@ html {
         display: none;
     }
 }
+
+/* Fix Our Team spacing on mobile */
+@media (max-width: 767px) {
+  .team-section .section-title {
+    margin-bottom: 60px !important; /* extra gap below heading */
+  }
+
+  .team-section {
+    padding-top: 100px !important;  /* reduce top padding */
+    padding-bottom: 40px !important;
+  }
+}
+
