@@ -49,13 +49,7 @@
 		</div>
 
 		<!-- Footer credit -->
-		<div class="row mt-4">
-			<div class="footer-social text-center mb-4">
-				<div class="social-links-f">
-					<a href="#"><i class="fa-brands fa-instagram"></i></a>
-					<a href="#"><i class="fa-brands fa-facebook"></i></a>
-				</div>
-			</div>
+		
 		</div>
 	</div>
 </footer>

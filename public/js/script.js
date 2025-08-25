@@ -77,3 +77,37 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Add loading class initially
 document.body.classList.add('loading');
+
+// Mobile navigation toggle
+document.addEventListener('DOMContentLoaded', function() {
+    const navSwitch = document.querySelector('.nav-switch');
+    const navMenu = document.querySelector('.nav-menu');
+    
+    if (navSwitch && navMenu) {
+        navSwitch.addEventListener('click', function(e) {
+            e.stopPropagation();
+            const isVisible = navMenu.style.display === 'block';
+            navMenu.style.display = isVisible ? 'none' : 'block';
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.nav-menu') && !e.target.closest('.nav-switch')) {
+            }
+        });
+        
+        // Prevent menu from closing when clicking inside it
+        navMenu.addEventListener('click', function(e) {
+            e.stopPropagation();
+        });
+    }
+    
+    // Handle window resize
+    window.addEventListener('resize', function() {
+        const navMenu = document.querySelector('.nav-menu');
+        if (window.innerWidth > 991 && navMenu) {
+            navMenu.style.display = 'inline-block';
+        } else if (navMenu) {
+        }
+    });
+});

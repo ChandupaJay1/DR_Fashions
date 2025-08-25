@@ -2,7 +2,7 @@
     <title>DR Fashions</title>
     <meta charset="UTF-8">
     <meta name="description" content="DR Fashions website">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="keywords" content="drfashions, garment, dr, creative, html">
 
     <!-- Favicon -->
@@ -25,9 +25,9 @@
     <link rel="stylesheet" href="../public/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../public/css/style.css">
 </head>
 
+<body>
 <!-- Header section start -->
 <header class="header-area">
     <div class="nav-switch">
@@ -48,7 +48,6 @@
 
 <div class="left-bar">
     <div class="left-bar-content">
-
         <!-- Rotated Logo -->
         <div class="rotated-logo">
             <a href="home.php">
@@ -56,14 +55,11 @@
             </a>
         </div>
 
-
-
         <!-- Social Icons Below -->
         <div class="social-links">
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
             <a href="#"><i class="fa-brands fa-facebook"></i></a>
         </div>
-
     </div>
 </div>
 <!-- Header section end -->
@@ -71,6 +67,20 @@
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         const menuItems = document.querySelectorAll(".nav-menu ul li a");
+        const navSwitch = document.querySelector('.nav-switch');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        // Toggle mobile menu
+        navSwitch.addEventListener('click', function() {
+            navMenu.style.display = navMenu.style.display === 'block' ? 'none' : 'block';
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!event.target.closest('.nav-menu') && !event.target.closest('.nav-switch') && window.innerWidth <= 991) {
+                navMenu.style.display = 'none';
+            }
+        });
 
         // Set active on page load
         menuItems.forEach(link => {
@@ -80,13 +90,26 @@
             }
         });
 
-        // Change active on click
+        // Change active on click and close menu on mobile
         menuItems.forEach(link => {
             link.addEventListener("click", function() {
                 menuItems.forEach(i => i.parentElement.classList.remove("active"));
                 this.parentElement.classList.add("active");
+                
+                // Close menu on mobile after selection
+                if (window.innerWidth <= 991) {
+                    navMenu.style.display = 'none';
+                }
             });
+        });
+        
+        // Handle window resize
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 991) {
+                navMenu.style.display = 'inline-block';
+            } else {
+                navMenu.style.display = 'none';
+            }
         });
     });
 </script>
-<!-- Header section end -->

@@ -12,6 +12,8 @@ html,
 body {
   height: 100%;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 h1,
@@ -59,6 +61,7 @@ p {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 input:focus,
@@ -198,7 +201,7 @@ ol {
   display: inline-block;
   font-weight: 700;
   border: 4px solid;
-  min-width: 200px;
+  min-width: 500px;
   text-align: center;
   padding: 19px 0;
   position: relative;
@@ -207,6 +210,11 @@ ol {
   z-index: 1;
   transition: all 0.3s ease; /* Smooth effect for all changes */
   cursor: pointer;
+  min-height: 44px;
+  min-width: 100px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .site-btn:after,
@@ -516,6 +524,11 @@ ol {
   font-weight: 500;
   position: relative;
   text-decoration: none;
+  min-height: 44px;
+  min-width: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-menu ul li a:after {
@@ -1675,7 +1688,7 @@ ol {
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  font-size: 13px;
+  font-size: 16px !important;
   border: none;
   background: #f0f0f0;
   padding: 15px 20px;
@@ -1753,8 +1766,6 @@ ol {
 .portfolio-warp .grid-item.grid-long {
   width: 40%;
 }
-
-
 
 .portfolio-warp .grid-item a:after {
   position: absolute;
@@ -2015,7 +2026,7 @@ ol {
     right: 0;
     height: 75px;
     width: 136px;
-    padding-top: 18px;
+    padding-bottom: 100px;
   }
   .slide-num-holder span,
   .slide-num-holder.test-slider span {
@@ -2080,6 +2091,7 @@ ol {
   }
   .hero-slider .owl-nav {
     padding-left: 0;
+    padding-right: 100px;
   }
   .slide-content {
     margin-left: 0;
@@ -2611,4 +2623,234 @@ html {
 
 .row.justify-content-center:nth-of-type(3) {
     transform: translateY(40px);
+}
+
+/* ==================== RESPONSIVE FIXES ==================== */
+
+/* General mobile fixes */
+@media (max-width: 991px) {
+    /* Header adjustments */
+    .header-area {
+        padding: 15px 0;
+        background: #121212;
+    }
+    
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #121212;
+        z-index: 1000;
+        padding: 15px 0;
+    }
+    
+    .nav-menu ul {
+        display: block;
+    }
+    
+    .nav-menu ul li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+    
+    .nav-menu ul li a {
+        padding: 10px;
+        margin: 0;
+        display: block;
+    }
+    
+    .phone-number {
+        position: absolute;
+        right: 60px;
+        top: 15px;
+        margin: 0;
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    
+    .nav-switch {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        font-size: 24px;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    /* Left bar adjustments */
+    .left-bar {
+        width: 70px;
+        z-index: 999;
+    }
+    
+    .social-links {
+        margin-top: 400px;
+    }
+    
+    .social-links a {
+        margin: 10px 0;
+        display: block;
+    }
+    
+    /* Hero section adjustments */
+    .hero-section, 
+    .hero-slider .hero-slide-item {
+        height: auto;
+        min-height: 500px;
+    }
+    
+    .slide-content {
+        margin-left: 80px;
+        padding: 30px 15px;
+        text-align: center;
+    }
+    
+    .slide-content h2 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+    
+    .hero-slider .owl-nav {
+        left: 80px;
+        bottom: 30px;
+    }
+    
+    /* Content sections */
+    .section-title h1, 
+    .section-title h2 {
+        font-size: 36px;
+    }
+    
+    .spad {
+        padding: 50px 0;
+    }
+    
+    .pt100, .pb100 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    /* Footer adjustments */
+    .footer-section {
+        padding: 50px 0;
+        text-align: center;
+    }
+    
+    .footer-section .copyright {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin: 20px 0;
+    }
+    
+    .footer-section .footer-social {
+        position: relative;
+        right: 0;
+        top: 0;
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    /* Rotated logo adjustments */
+    .rotated-logo {
+        left: -75px;
+        top: 60px;
+    }
+    
+    .rotated-logo img {
+        height: 120px;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 767px) {
+    /* Further adjustments for very small screens */
+    .left-bar {
+        display: none;
+    }
+    
+    .slide-content {
+        margin-left: 0;
+        padding: 20px 15px;
+    }
+    
+    .slide-content h2 {
+        font-size: 28px;
+    }
+    
+    .hero-slider .owl-nav {
+        left: 15px;
+        bottom: 20px;
+    }
+    
+    .phone-number {
+        font-size: 12px;
+        right: 50px;
+        padding: 3px 8px;
+    }
+    
+    /* Service boxes */
+    .service-box {
+        margin-bottom: 30px;
+    }
+    
+    /* Milestones */
+    .milestone {
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .milestone h2 {
+        float: none;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .milestone p {
+        float: none;
+        display: block;
+        margin-left: 0;
+    }
+    
+    /* Project items */
+    .single-project {
+        margin-bottom: 20px;
+    }
+    
+    /* Team section */
+    .team-member {
+        margin-bottom: 30px;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 479px) {
+    .slide-content h2 {
+        font-size: 24px;
+    }
+    
+    .section-title h1, 
+    .section-title h2 {
+        font-size: 28px;
+        padding: 0 10px;
+    }
+    
+    h1, .sp-title {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    
+    .phone-number {
+        display: none;
+    }
+    
+    /* Hide rotated logo on very small screens */
+    .rotated-logo {
+        display: none;
+    }
 }
