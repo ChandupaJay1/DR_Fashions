@@ -16,6 +16,37 @@ body {
   width: 100%;
 }
 
+.visible-scrollbar, .invisible-scrollbar, .mostly-customized-scrollbar {
+    display: block;
+    width: 8em;
+    overflow: auto;
+    height: 2em;
+    padding: 1em;
+    margin: 1em auto;
+    outline: 2px dashed rgba(255, 175, 45, 0.65);
+}
+
+.invisible-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Demonstrate a "mostly customized" scrollbar with transparent background */
+.mostly-customized-scrollbar::-webkit-scrollbar {
+    width: 4px;
+    height: 6px;
+    background-color: transparent; /* Made transparent */
+}
+
+/* Transparent thumb */
+.mostly-customized-scrollbar::-webkit-scrollbar-thumb {
+    background: transparent; /* Made transparent */
+}
+
+/* Optional: Add transparent track for completeness */
+.mostly-customized-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
 h1,
 h2,
 h3,
@@ -547,7 +578,7 @@ ol {
 .nav-menu ul li::before {
   content: "";
   position: absolute;
-  top: 0; /* menu height අනුව adjust කරන්න */
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
   width: 2px;
@@ -557,12 +588,12 @@ ol {
   transition: opacity 0.3s ease;
 }
 
-/* Hover කරන විට line පෙන්වන්න */
+
 .nav-menu ul li:hover::before {
   opacity: 1;
 }
 
-/* Active එකේ line පෙන්වන්න */
+
 .nav-menu ul li.active::before {
   opacity: 1;
 }
@@ -577,10 +608,10 @@ ol {
 }
 
 .left-bar {
-  position: absolute; /* scroll වුණත් position fix */
+  position: absolute;
   top: 0;
   left: 0;
-  width: 100px;
+  width: 80px;
   height: 100%;
   background: #121212;
   z-index: 20;
@@ -2162,10 +2193,11 @@ ol {
 }
 
 .rotated-logo img {
-  height: 190px; /* Bigger logo size */
-  width: auto;
-  max-width: 280px;
-  object-fit: contain;
+    height: 100px;
+    width: auto;
+    max-width: 220px;
+    object-fit: scale-down;
+    padding-top: 40px;
 }
 
 /* Tablet view adjustments */
